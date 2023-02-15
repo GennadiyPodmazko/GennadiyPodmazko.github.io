@@ -1,6 +1,17 @@
 'use strict';
 
+const options = {
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  gutter: '.gutter-sizer',
+  columnWidth: '.grid-sizer',
+};
+
+const pckry = new Packery('.grid__wrapper', options);
+
 window.addEventListener('load', () => {
+  // remove loading class which prevents the site from being shown
+  document.querySelector('body').classList.remove('loading');
 
   document.querySelectorAll('a[href^="#"]:not(.popup-link)').forEach(link => {
 
@@ -21,25 +32,20 @@ window.addEventListener('load', () => {
             behavior: 'smooth'
         });
     });
-});
+  });
 
 
-  let pckry;
+  // let pckry;
   let draggie;
 
-  let options = {
-    itemSelector: '.grid-item',
-    percentPosition: true,
-    gutter: '.gutter-sizer',
-    columnWidth: '.grid-sizer',
-  };
+  
 
   // check is touch device
   function isTouchDevice() {
     return !!('ontouchstart' in window);
   }
 
-  pckry = new Packery('.grid__wrapper', options);
+  
 
   if (!isTouchDevice()) {
     pckry.getItemElements().forEach(function (itemElem) {
