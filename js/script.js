@@ -10,6 +10,8 @@ const options = {
 const pckry = new Packery('.grid__wrapper', options);
 
 window.addEventListener('load', () => {
+  // reformat grid after images are loaded
+  pckry.layout()
   // remove loading class which prevents the site from being shown
   document.querySelector('body').classList.remove('loading');
 
