@@ -5,6 +5,7 @@ Styles should be edited only in the ```scss``` folder after editing the styles s
 ### Using SASS
 * Installing SASS ```npm install -g sass```
 * Watching changes in scss files and updating ```style.css``` files ```sass --watch scss:css```
+* Prepare for production: ```sass scss/style.scss:css/style.min.css --style=compressed``` 
 
 ### Using autoprefixer
 * Installing postcss and autoprefixer ```npm install -g postcss-cli autoprefixer```
