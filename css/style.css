@@ -580,6 +580,14 @@ a:hover {
 .header__list:hover {
   background: #F2F6FB;
 }
+img.logo {
+  width: 47px;
+  height: 48px;
+  transition: all .2s ease-in-out;
+}
+img.logo:hover {
+  transform: scale(1.3);
+}
 .header__list-logo {
   display: flex;
   align-items: center;
