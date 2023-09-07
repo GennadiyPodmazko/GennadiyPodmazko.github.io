@@ -64,72 +64,14 @@ window.addEventListener('load', () => {
   let time;
 
   try {
-    const homeText = document.querySelector('.home__text');
-    if (window.innerWidth >= 1000) {
-      time = 3000;
-    } else {
-      time = 1200;
-    }
-
-    homeTextAnimation(500)
-    .then(() => {
-      try {
-        homeText.classList.remove('second-active');
-        homeText.classList.remove('third-active');
-      } catch (error){
-      }
-      return homeTextAnimation(time);
-    })
-    .then(() => {
-      try {
-        homeText.classList.remove('third-active');
-        homeText.classList.add('second-active');
-      } catch (error) {
-
-      }
-      return homeTextAnimation(time);
-    })
-    .then(() => {
-      try {
-        homeText.classList.remove('second-active');
-        homeText.classList.add('third-active');
-      } catch (error) {
-
-      }
-      return homeTextAnimation(time);
+    let typed = new Typed('#typed', { // id of the block for animation
+      strings: ['Write your own ticket.'], // Text
+      typeSpeed: 130, // Printing speed
+      startDelay: 0, // Delay before starting animation
+      backSpeed: 50, // Speed of deleting
+      backDelay: 2000, // Pause time before deleting
+      loop: true // Should it be repeated?
     });
-
-    setInterval(() => {
-      homeTextAnimation(500)
-      .then(() => {
-       try {
-        homeText.classList.remove('second-active');
-        homeText.classList.remove('third-active');
-       } catch (error) {
-
-       }
-        return homeTextAnimation(time);
-      })
-      .then(() => {
-        try {
-          homeText.classList.remove('third-active');
-          homeText.classList.add('second-active');
-        } catch (error) {
-
-        }
-        return homeTextAnimation(time);
-      })
-      .then(() => {
-        try {
-          homeText.classList.remove('second-active');
-          homeText.classList.add('third-active');
-        } catch (error) {
-
-        }
-        return homeTextAnimation(time);
-      });
-    }, time * 3);
-
   } catch (error) {
   }
 
