@@ -1509,6 +1509,105 @@ img.logo:hover {
   }
 }
 
+.our-advantages {
+  background: #021D40;
+  position: relative;
+  padding: 40px 72px 0 40px;
+  justify-content: space-between;
+}
+.our-advantages__title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+  position: relative;
+}
+.our-advantages__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+  position: relative;
+  z-index: 2;
+}
+.our-advantages__icon {
+  width: auto;
+  height: 100px;
+  margin-right: 40px;
+}
+.our-advantages-popup__wrap {
+  max-width: 954px;
+}
+@media (max-width: 980px) {
+  .our-advantages-popup__wrap {
+    max-width: 628px;
+  }
+}
+@media (max-width: 660px) {
+  .our-advantages-popup__wrap {
+    max-width: 98%;
+  }
+}
+.our-advantages-popup__info {
+  padding: 64px 80px 64px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 980px) {
+  .our-advantages-popup__info {
+    padding: 38px 48px;
+  }
+}
+@media (max-width: 660px) {
+  .our-advantages-popup__info {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 400px) {
+  .our-advantages-popup__info {
+    padding-bottom: 20px;
+  }
+}
+.our-advantages-popup__info-title {
+  width: 100%;
+  color: #2E2E2E;
+}
+@media (max-width: 660px) {
+  .our-advantages-popup__info-title {
+    padding: 0 28px;
+  }
+}
+.our-advantages-popup__info-title .title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  display: block;
+  margin-bottom: 24px;
+}
+@media (max-width: 660px) {
+  .our-advantages-popup__info-title .title {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 8px;
+  }
+}
+.our-advantages-popup__info-title p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+@media (max-width: 660px) {
+  .our-advantages-popup__info-title p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+}
+
 .we-write-books {
   background: #F2F6FB;
   position: relative;
