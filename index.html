@@ -9,6 +9,11 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/fonts/stylesheet.css">
   <link rel="stylesheet" href="/css/style.css">
+
+  <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
   <title>forkjoin</title>
 </head>
 
@@ -129,7 +134,7 @@
         </div>
         <div data-delaymob="2000" class="grid-item our-offices">
           <img src="/img/earth.png" alt="" class="our-offices__bg">
-          <span class="grid-item__title">Our offices</span>
+          <span class="grid-item__title">Our goal</span>
           <div class="our-offices__row">
             <div class="our-offices__item">
               <img src="/img/flag-usa.png" alt="" class="our-offices__item-flag">
@@ -146,34 +151,54 @@
               <img src="/img/flag-georgia.png" alt="" class="our-offices__item-flag">
               <span>Tbilisi</span>
             </div>
-            <!-- <span class="separator">|</span>
+            <span class="separator">|</span>
             <div class="our-offices__item">
               <img src="/img/flag-uae.png" alt="" class="our-offices__item-flag">
               <span>Dubai</span>
-            </div> -->
+            </div>
           </div>
         </div>
 
-
-        <div data-delay="5000" data-delaymob="6000" class="grid-item grid-item_col2 our-advantages">
+        <div data-delay="5000" data-delaymob="6000" 
+          class="grid-item grid-item_col2 grid-item_row2 our-advantages">
           <div class="our-advantages__title">Our Advantages & Differences</div>
           <div class="our-advantages__text">
-            <p>27+ years of experience on Wall Street with the most successful financial firms</p>
+            <p><span class="our-advantages__text_link">27+ years of experience</span> on Wall Street with the most successful financial firms</p>
+            <div class="our-advantages__row">
+              <img class="our-advantages__partner-logo" src="/img/company_partner_logo_1.svg" alt="">
+              <img class="our-advantages__partner-logo" src="/img/company_partner_logo_2.svg" alt="">
+              <img class="our-advantages__partner-logo" src="/img/company_partner_logo_3.svg" alt="">
+              <img class="our-advantages__partner-logo" src="/img/company_partner_logo_4.svg" alt="">
+            </div>
+            <div class="our-advantages__row">
+              <img class="our-advantages__partner-logo" src="/img/company_partner_logo_5.svg" alt="">
+              <img class="our-advantages__partner-logo" src="/img/company_partner_logo_6.svg" alt="">
+              <img class="our-advantages__partner-logo" src="/img/company_partner_logo_7.svg" alt="">
+              <img class="our-advantages__partner-logo" src="/img/company_partner_logo_8.svg" alt="">
+              <img class="our-advantages__partner-logo" src="/img/company_partner_logo_9.svg" alt="">
+            </div>
             <p>Our Certifications</p>
+            <div class="our-advantages__row">
+              <img class="our-advantages__icon" src="/img/certificate_ICAgile_profesional.png" alt="">
+              <img class="our-advantages__icon" src="/img/certificate_PMP.svg" alt="">
+              <img class="our-advantages__icon" src="/img/certificatre_PMI.svg" alt="">
+            </div>
             <p>Our Books</p>
-          </div>
-          <div class="our-advantages__books">
-            <a href="https://www.manning.com/books/typescript-quickly" target=”_blank”>
-              <img class="our-advantages__icon" src="/img/book1.jpg" alt="">
-            </a>
-            <a href="https://www.manning.com/books/angular-development-with-typescript-second-edition" target=”_blank”>
-              <img class="our-advantages__icon" src="/img/book2.jpg" alt="">
-            </a>
-            <a href="https://www.manning.com/books/angular-2-development-with-typescript" target=”_blank”></a>
-              <img class="our-advantages__icon" src="/img/book3.jpg" alt="">
-            </a>
+            <div class="our-advantages__row">
+              <a class="our-advantages__icon" href="https://www.manning.com/books/typescript-quickly" target=”_blank”>
+                <img class="our-advantages__icon" src="/img/book1.jpg" alt="">
+              </a>
+              <a class="our-advantages__icon" href="https://www.manning.com/books/angular-development-with-typescript-second-edition" target=”_blank”>
+                <img class="our-advantages__icon" src="/img/book2.jpg" alt="">
+              </a>
+              <a class="our-advantages__icon" href="https://www.manning.com/books/angular-2-development-with-typescript" target=”_blank”>
+                <img class="our-advantages__icon" src="/img/book3.jpg" alt="">
+              </a>
+            </div> 
           </div>
 
+          <!-- <img class="our-advantages__team-photo" src="./img/ourteam_bg.jpg" alt="" > -->
+          
           <a href="#our-advantages-popup" class="grid-item__link popup-link">
             <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M9.51214 0.179604C9.49941 0.170006 9.48334 0.163532 9.47062 0.153934C9.4579 0.144336 9.44182 0.137863 9.4291 0.128265C9.41303 0.121791 9.40031 0.112193 9.38424 0.105943C9.36817 0.0994699 9.35544 0.0898722 9.33937 0.0836225C9.3233 0.0771494 9.31058 0.0740242 9.2945 0.0675511C9.27843 0.061078 9.26258 0.0548269 9.24339 0.0483538C9.22732 0.0452288 9.21459 0.0418809 9.19852 0.0356306C9.17933 0.0325056 9.16325 0.0260325 9.14406 0.0229074C9.12799 0.0197824 9.10879 0.0164342 9.09294 0.0164342C9.07687 0.0133091 9.06102 0.00996094 9.04495 0.00996094C9.01616 0.00683591 8.98424 0.00683594 8.95544 0.00683594H8.94584H1.03556C0.46926 0.00683594 0.00830078 0.46755 0.00830078 1.03409C0.00830078 1.60039 0.469014 2.06135 1.03556 2.06135H6.46927L0.309272 8.21792C-0.0907279 8.61792 -0.0907279 9.26746 0.309272 9.66746C0.510832 9.86902 0.773335 9.96836 1.03561 9.96836C1.29812 9.96836 1.56039 9.86925 1.76196 9.66746L7.91853 3.51089V8.94461C7.91853 9.5109 8.37924 9.97186 8.94579 9.97186C9.51208 9.97186 9.97304 9.51115 9.97304 8.94461L9.97327 1.03432C9.97327 0.999054 9.97014 0.967133 9.96679 0.931865C9.96679 0.915793 9.96367 0.90307 9.96032 0.886999C9.9572 0.867802 9.95385 0.848605 9.95072 0.832534C9.9476 0.816463 9.94112 0.800615 9.938 0.781418C9.93487 0.765347 9.93153 0.749499 9.92528 0.733427C9.9188 0.717356 9.91568 0.701508 9.9092 0.685436C9.90273 0.669365 9.89961 0.653517 9.89313 0.637446C9.88666 0.621374 9.88041 0.60865 9.87394 0.592579C9.86746 0.576508 9.86121 0.56066 9.85162 0.544589C9.84514 0.531865 9.83554 0.515794 9.82595 0.503071C9.81635 0.487 9.80987 0.474276 9.80028 0.458205C9.79068 0.442133 9.77796 0.429409 9.76836 0.413338C9.75876 0.400615 9.75229 0.387668 9.74269 0.37807C9.70117 0.326954 9.65318 0.278961 9.59872 0.234099C9.58912 0.2245 9.57639 0.218027 9.56345 0.208429C9.54447 0.202179 9.5284 0.192581 9.51256 0.179858L9.51214 0.179604Z"
@@ -219,10 +244,10 @@
             </svg>
           </a>
         </div>
+
         <div data-delay="400" data-delaymob="1000"  class="grid-item grid-item_row2 our-projects">
-          <span class="our-projects__subtitle">Our projects</span>
-          <span class="our-projects__title">Take a look
-            at what we do</span>
+          <!-- <span class="our-projects__subtitle">Our projects</span> -->
+          <span class="our-projects__title">Upcoming courses</span>
 
           <div class="our-projects__animation">
             <img class="bg bg_desk" src="/img/our-projects.png" alt="">
@@ -239,8 +264,51 @@
             </svg>
           </a>
         </div>
+
+        <div class="grid-item contact-linkedin">
+          <img src="/img/linkedin.svg" alt="">
+          <a target="_blank" href="https://www.linkedin.com/company/forkjoin/mycompany/" class="grid-item__link">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.51214 0.179604C9.49941 0.170006 9.48334 0.163532 9.47062 0.153934C9.4579 0.144336 9.44182 0.137863 9.4291 0.128265C9.41303 0.121791 9.40031 0.112193 9.38424 0.105943C9.36817 0.0994699 9.35544 0.0898722 9.33937 0.0836225C9.3233 0.0771494 9.31058 0.0740242 9.2945 0.0675511C9.27843 0.061078 9.26258 0.0548269 9.24339 0.0483538C9.22732 0.0452288 9.21459 0.0418809 9.19852 0.0356306C9.17933 0.0325056 9.16325 0.0260325 9.14406 0.0229074C9.12799 0.0197824 9.10879 0.0164342 9.09294 0.0164342C9.07687 0.0133091 9.06102 0.00996094 9.04495 0.00996094C9.01616 0.00683591 8.98424 0.00683594 8.95544 0.00683594H8.94584H1.03556C0.46926 0.00683594 0.00830078 0.46755 0.00830078 1.03409C0.00830078 1.60039 0.469014 2.06135 1.03556 2.06135H6.46927L0.309272 8.21792C-0.0907279 8.61792 -0.0907279 9.26746 0.309272 9.66746C0.510832 9.86902 0.773335 9.96836 1.03561 9.96836C1.29812 9.96836 1.56039 9.86925 1.76196 9.66746L7.91853 3.51089V8.94461C7.91853 9.5109 8.37924 9.97186 8.94579 9.97186C9.51208 9.97186 9.97304 9.51115 9.97304 8.94461L9.97327 1.03432C9.97327 0.999054 9.97014 0.967133 9.96679 0.931865C9.96679 0.915793 9.96367 0.90307 9.96032 0.886999C9.9572 0.867802 9.95385 0.848605 9.95072 0.832534C9.9476 0.816463 9.94112 0.800615 9.938 0.781418C9.93487 0.765347 9.93153 0.749499 9.92528 0.733427C9.9188 0.717356 9.91568 0.701508 9.9092 0.685436C9.90273 0.669365 9.89961 0.653517 9.89313 0.637446C9.88666 0.621374 9.88041 0.60865 9.87394 0.592579C9.86746 0.576508 9.86121 0.56066 9.85162 0.544589C9.84514 0.531865 9.83554 0.515794 9.82595 0.503071C9.81635 0.487 9.80987 0.474276 9.80028 0.458205C9.79068 0.442133 9.77796 0.429409 9.76836 0.413338C9.75876 0.400615 9.75229 0.387668 9.74269 0.37807C9.70117 0.326954 9.65318 0.278961 9.59872 0.234099C9.58912 0.2245 9.57639 0.218027 9.56345 0.208429C9.54447 0.202179 9.5284 0.192581 9.51256 0.179858L9.51214 0.179604Z"
+                    fill="#1C2047" />
+            </svg>
+          </a>
+        </div>
+
+        <div data-delay="400" data-delaymob="400" class="grid-item our-blog">
+          <span class="grid-item__title">Our blog</span>
+          <div class="our-blog__animation">
+            <div class="our-blog__animation-template">
+              <div class="top">
+                <img src="/img/memoji.png" alt="">
+                <span>News from ForkJoin</span>
+              </div>
+
+              <div class="bottom">
+                <div class="date">
+                  <span class="month">DEC</span>
+                  <span class="num">31</span>
+                </div>
+                <div class="text">
+                  <span class="title">Happy New Year</span>
+                  <p>Our results of the year</p>
+                </div>
+              </div>
+            </div>
+            <img src="/img/our-blog2.svg" alt="" class="our-blog__animation-item">
+            <img src="/img/our-blog3.svg" alt="" class="our-blog__animation-item">
+          </div>
+          <a href="#" class="grid-item__link">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.51214 0.179604C9.49941 0.170006 9.48334 0.163532 9.47062 0.153934C9.4579 0.144336 9.44182 0.137863 9.4291 0.128265C9.41303 0.121791 9.40031 0.112193 9.38424 0.105943C9.36817 0.0994699 9.35544 0.0898722 9.33937 0.0836225C9.3233 0.0771494 9.31058 0.0740242 9.2945 0.0675511C9.27843 0.061078 9.26258 0.0548269 9.24339 0.0483538C9.22732 0.0452288 9.21459 0.0418809 9.19852 0.0356306C9.17933 0.0325056 9.16325 0.0260325 9.14406 0.0229074C9.12799 0.0197824 9.10879 0.0164342 9.09294 0.0164342C9.07687 0.0133091 9.06102 0.00996094 9.04495 0.00996094C9.01616 0.00683591 8.98424 0.00683594 8.95544 0.00683594H8.94584H1.03556C0.46926 0.00683594 0.00830078 0.46755 0.00830078 1.03409C0.00830078 1.60039 0.469014 2.06135 1.03556 2.06135H6.46927L0.309272 8.21792C-0.0907279 8.61792 -0.0907279 9.26746 0.309272 9.66746C0.510832 9.86902 0.773335 9.96836 1.03561 9.96836C1.29812 9.96836 1.56039 9.86925 1.76196 9.66746L7.91853 3.51089V8.94461C7.91853 9.5109 8.37924 9.97186 8.94579 9.97186C9.51208 9.97186 9.97304 9.51115 9.97304 8.94461L9.97327 1.03432C9.97327 0.999054 9.97014 0.967133 9.96679 0.931865C9.96679 0.915793 9.96367 0.90307 9.96032 0.886999C9.9572 0.867802 9.95385 0.848605 9.95072 0.832534C9.9476 0.816463 9.94112 0.800615 9.938 0.781418C9.93487 0.765347 9.93153 0.749499 9.92528 0.733427C9.9188 0.717356 9.91568 0.701508 9.9092 0.685436C9.90273 0.669365 9.89961 0.653517 9.89313 0.637446C9.88666 0.621374 9.88041 0.60865 9.87394 0.592579C9.86746 0.576508 9.86121 0.56066 9.85162 0.544589C9.84514 0.531865 9.83554 0.515794 9.82595 0.503071C9.81635 0.487 9.80987 0.474276 9.80028 0.458205C9.79068 0.442133 9.77796 0.429409 9.76836 0.413338C9.75876 0.400615 9.75229 0.387668 9.74269 0.37807C9.70117 0.326954 9.65318 0.278961 9.59872 0.234099C9.58912 0.2245 9.57639 0.218027 9.56345 0.208429C9.54447 0.202179 9.5284 0.192581 9.51256 0.179858L9.51214 0.179604Z"
+                    fill="#1C2047" />
+            </svg>
+          </a>
+        </div>
+
         <div data-delaymob="100"  class="grid-item grid-item_col2 our-stack">
-          <span class="grid-item__title">Our stack</span>
+          <span class="grid-item__title">About</span>
+          <span class="grid-item__title">ForkJoin</span>
           <div class="our-stack__list">
             <span class="our-stack__list-item">Java</span>
 
@@ -274,20 +342,14 @@
             </div>
           </div>
         </div>
-        <div data-delay="700" data-delaymob="700" class="grid-item open-vacancies">
-          <span class="grid-item__title">Open vacancies</span>
-          <div class="open-vacancies__row">
-            <div class="open-vacancies__item">
-              <img src="/img/vacancies1.png" alt="">
-            </div>
-            <div class="open-vacancies__item">
-              <img src="/img/vacancies2.png" alt="">
-            </div>
-            <div class="open-vacancies__item">
-              <img src="/img/vacancies3.png" alt="">
-            </div>
-          </div>
-          <a target="_blank" href="https://forkjoin.notion.site/Open-Positions-10b2320f4ec5435b988442ec8d87ef33" class="grid-item__link">
+
+        <div data-delay="700" data-delaymob="700" class="grid-item qa">
+          <span class="grid-item__title">QA</span>
+          <img class="qa_body-img" src="./img/question_sign.png" alt="">
+          <p class="grid-item__footer">
+            DETAILS
+          </p>
+          <a target="_blank" href="#qa-popup" class="grid-item__link popup-link">
             <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M9.51214 0.179604C9.49941 0.170006 9.48334 0.163532 9.47062 0.153934C9.4579 0.144336 9.44182 0.137863 9.4291 0.128265C9.41303 0.121791 9.40031 0.112193 9.38424 0.105943C9.36817 0.0994699 9.35544 0.0898722 9.33937 0.0836225C9.3233 0.0771494 9.31058 0.0740242 9.2945 0.0675511C9.27843 0.061078 9.26258 0.0548269 9.24339 0.0483538C9.22732 0.0452288 9.21459 0.0418809 9.19852 0.0356306C9.17933 0.0325056 9.16325 0.0260325 9.14406 0.0229074C9.12799 0.0197824 9.10879 0.0164342 9.09294 0.0164342C9.07687 0.0133091 9.06102 0.00996094 9.04495 0.00996094C9.01616 0.00683591 8.98424 0.00683594 8.95544 0.00683594H8.94584H1.03556C0.46926 0.00683594 0.00830078 0.46755 0.00830078 1.03409C0.00830078 1.60039 0.469014 2.06135 1.03556 2.06135H6.46927L0.309272 8.21792C-0.0907279 8.61792 -0.0907279 9.26746 0.309272 9.66746C0.510832 9.86902 0.773335 9.96836 1.03561 9.96836C1.29812 9.96836 1.56039 9.86925 1.76196 9.66746L7.91853 3.51089V8.94461C7.91853 9.5109 8.37924 9.97186 8.94579 9.97186C9.51208 9.97186 9.97304 9.51115 9.97304 8.94461L9.97327 1.03432C9.97327 0.999054 9.97014 0.967133 9.96679 0.931865C9.96679 0.915793 9.96367 0.90307 9.96032 0.886999C9.9572 0.867802 9.95385 0.848605 9.95072 0.832534C9.9476 0.816463 9.94112 0.800615 9.938 0.781418C9.93487 0.765347 9.93153 0.749499 9.92528 0.733427C9.9188 0.717356 9.91568 0.701508 9.9092 0.685436C9.90273 0.669365 9.89961 0.653517 9.89313 0.637446C9.88666 0.621374 9.88041 0.60865 9.87394 0.592579C9.86746 0.576508 9.86121 0.56066 9.85162 0.544589C9.84514 0.531865 9.83554 0.515794 9.82595 0.503071C9.81635 0.487 9.80987 0.474276 9.80028 0.458205C9.79068 0.442133 9.77796 0.429409 9.76836 0.413338C9.75876 0.400615 9.75229 0.387668 9.74269 0.37807C9.70117 0.326954 9.65318 0.278961 9.59872 0.234099C9.58912 0.2245 9.57639 0.218027 9.56345 0.208429C9.54447 0.202179 9.5284 0.192581 9.51256 0.179858L9.51214 0.179604Z"
                     fill="#1C2047" />
@@ -295,16 +357,16 @@
           </a>
         </div>
 
-        <div data-delay="7000" data-delaymob="7000"  class="grid-item our-stack-small">
+        <!-- <div data-delay="7000" data-delaymob="7000"  class="grid-item our-stack-small">
           <span class="our-stack-small__gear"></span>
           <span class="our-stack-small__item">Development</span>
           <span class="our-stack-small__item">Architecture</span>
           <span class="our-stack-small__item">Design</span>
           <span class="our-stack-small__item">DevOps</span>
 
-        </div>
+        </div> -->
 
-        <div data-delaymob="100"  class="grid-item grid-item_col2 our-team">
+        <!-- <div data-delaymob="100"  class="grid-item grid-item_col2 our-team">
           <div class="our-team__gif">
             <img class="our-team__gif-image" src="/img/gif1.png" alt="">
           </div>
@@ -318,38 +380,8 @@
                     fill="#1C2047" />
             </svg>
           </a>
-        </div>
-
-        <!-- <div data-delay="400" data-delaymob="400" class="grid-item our-blog">
-          <span class="grid-item__title">Our blog</span>
-          <div class="our-blog__animation">
-            <div class="our-blog__animation-template">
-              <div class="top">
-                <img src="/img/memoji.png" alt="">
-                <span>News from ForkJoin</span>
-              </div>
-
-              <div class="bottom">
-                <div class="date">
-                  <span class="month">DEC</span>
-                  <span class="num">31</span>
-                </div>
-                <div class="text">
-                  <span class="title">Happy New Year</span>
-                  <p>Our results of the year</p>
-                </div>
-              </div>
-            </div>
-            <img src="/img/our-blog2.svg" alt="" class="our-blog__animation-item">
-            <img src="/img/our-blog3.svg" alt="" class="our-blog__animation-item">
-          </div>
-          <a href="#" class="grid-item__link">
-            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9.51214 0.179604C9.49941 0.170006 9.48334 0.163532 9.47062 0.153934C9.4579 0.144336 9.44182 0.137863 9.4291 0.128265C9.41303 0.121791 9.40031 0.112193 9.38424 0.105943C9.36817 0.0994699 9.35544 0.0898722 9.33937 0.0836225C9.3233 0.0771494 9.31058 0.0740242 9.2945 0.0675511C9.27843 0.061078 9.26258 0.0548269 9.24339 0.0483538C9.22732 0.0452288 9.21459 0.0418809 9.19852 0.0356306C9.17933 0.0325056 9.16325 0.0260325 9.14406 0.0229074C9.12799 0.0197824 9.10879 0.0164342 9.09294 0.0164342C9.07687 0.0133091 9.06102 0.00996094 9.04495 0.00996094C9.01616 0.00683591 8.98424 0.00683594 8.95544 0.00683594H8.94584H1.03556C0.46926 0.00683594 0.00830078 0.46755 0.00830078 1.03409C0.00830078 1.60039 0.469014 2.06135 1.03556 2.06135H6.46927L0.309272 8.21792C-0.0907279 8.61792 -0.0907279 9.26746 0.309272 9.66746C0.510832 9.86902 0.773335 9.96836 1.03561 9.96836C1.29812 9.96836 1.56039 9.86925 1.76196 9.66746L7.91853 3.51089V8.94461C7.91853 9.5109 8.37924 9.97186 8.94579 9.97186C9.51208 9.97186 9.97304 9.51115 9.97304 8.94461L9.97327 1.03432C9.97327 0.999054 9.97014 0.967133 9.96679 0.931865C9.96679 0.915793 9.96367 0.90307 9.96032 0.886999C9.9572 0.867802 9.95385 0.848605 9.95072 0.832534C9.9476 0.816463 9.94112 0.800615 9.938 0.781418C9.93487 0.765347 9.93153 0.749499 9.92528 0.733427C9.9188 0.717356 9.91568 0.701508 9.9092 0.685436C9.90273 0.669365 9.89961 0.653517 9.89313 0.637446C9.88666 0.621374 9.88041 0.60865 9.87394 0.592579C9.86746 0.576508 9.86121 0.56066 9.85162 0.544589C9.84514 0.531865 9.83554 0.515794 9.82595 0.503071C9.81635 0.487 9.80987 0.474276 9.80028 0.458205C9.79068 0.442133 9.77796 0.429409 9.76836 0.413338C9.75876 0.400615 9.75229 0.387668 9.74269 0.37807C9.70117 0.326954 9.65318 0.278961 9.59872 0.234099C9.58912 0.2245 9.57639 0.218027 9.56345 0.208429C9.54447 0.202179 9.5284 0.192581 9.51256 0.179858L9.51214 0.179604Z"
-                    fill="#1C2047" />
-            </svg>
-          </a>
         </div> -->
+
 
         <div data-delay="2000" data-delaymob="2000" class="grid-item grid-item_col3 contacts-item" id="contacts">
           <div class="contacts-item__top">
@@ -381,16 +413,6 @@
           </div>
         </div>
 
-        <div class="grid-item contact-linkedin">
-          <img src="/img/linkedin.svg" alt="">
-          <a target="_blank" href="https://www.linkedin.com/company/forkjoin/mycompany/" class="grid-item__link">
-            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9.51214 0.179604C9.49941 0.170006 9.48334 0.163532 9.47062 0.153934C9.4579 0.144336 9.44182 0.137863 9.4291 0.128265C9.41303 0.121791 9.40031 0.112193 9.38424 0.105943C9.36817 0.0994699 9.35544 0.0898722 9.33937 0.0836225C9.3233 0.0771494 9.31058 0.0740242 9.2945 0.0675511C9.27843 0.061078 9.26258 0.0548269 9.24339 0.0483538C9.22732 0.0452288 9.21459 0.0418809 9.19852 0.0356306C9.17933 0.0325056 9.16325 0.0260325 9.14406 0.0229074C9.12799 0.0197824 9.10879 0.0164342 9.09294 0.0164342C9.07687 0.0133091 9.06102 0.00996094 9.04495 0.00996094C9.01616 0.00683591 8.98424 0.00683594 8.95544 0.00683594H8.94584H1.03556C0.46926 0.00683594 0.00830078 0.46755 0.00830078 1.03409C0.00830078 1.60039 0.469014 2.06135 1.03556 2.06135H6.46927L0.309272 8.21792C-0.0907279 8.61792 -0.0907279 9.26746 0.309272 9.66746C0.510832 9.86902 0.773335 9.96836 1.03561 9.96836C1.29812 9.96836 1.56039 9.86925 1.76196 9.66746L7.91853 3.51089V8.94461C7.91853 9.5109 8.37924 9.97186 8.94579 9.97186C9.51208 9.97186 9.97304 9.51115 9.97304 8.94461L9.97327 1.03432C9.97327 0.999054 9.97014 0.967133 9.96679 0.931865C9.96679 0.915793 9.96367 0.90307 9.96032 0.886999C9.9572 0.867802 9.95385 0.848605 9.95072 0.832534C9.9476 0.816463 9.94112 0.800615 9.938 0.781418C9.93487 0.765347 9.93153 0.749499 9.92528 0.733427C9.9188 0.717356 9.91568 0.701508 9.9092 0.685436C9.90273 0.669365 9.89961 0.653517 9.89313 0.637446C9.88666 0.621374 9.88041 0.60865 9.87394 0.592579C9.86746 0.576508 9.86121 0.56066 9.85162 0.544589C9.84514 0.531865 9.83554 0.515794 9.82595 0.503071C9.81635 0.487 9.80987 0.474276 9.80028 0.458205C9.79068 0.442133 9.77796 0.429409 9.76836 0.413338C9.75876 0.400615 9.75229 0.387668 9.74269 0.37807C9.70117 0.326954 9.65318 0.278961 9.59872 0.234099C9.58912 0.2245 9.57639 0.218027 9.56345 0.208429C9.54447 0.202179 9.5284 0.192581 9.51256 0.179858L9.51214 0.179604Z"
-                    fill="#1C2047" />
-            </svg>
-          </a>
-        </div>
-
         <div data-delay="2000" data-delaymob="2000" class="grid-item provided-by-item" id="provided-by">
           <div class="provided-by-item__top">
             <span class="grid-item__title">Copyright</span>
@@ -416,7 +438,7 @@
     <div class="popup-block__overlay"></div>
     <div class="popup-block__wrap our-advantages-popup__wrap">
       <div class="our-advantages-popup__info">
-        <div class="our-advantages-popup__info-title">
+        <div class="our-advantages-popup__info-text">
           <span class="title">Our Advantages & Differences</span>
           <p>The founders of OnIT have over 27 years of successful track record in 
             the FinTech industry in the USA and Europe, with such companies as ICE 
@@ -424,8 +446,28 @@
             investment banks such as Morgan Stanley, JP Morgan, and others.</p>
           <p>The mother company - ForkJoin, is the leading IT Service Provider  for aggressive and disruptive FinTechs such as Meetperry, ENSO Financial, UNTL, and others.</p>
           <p>We are very hands-on and write and publish bestselling books in the Manning Publication ( USA ), which are read and followed by a vast community of engineers worldwide. We follow the paradigm - Don’t do as I say, Do as I do!</p>
-          <p>The idea of starting the training is around something other than the revenue generation and recruitment concerns but instead is around knowledge sharing and advisory.</p>
-          <p>The main message of our undertaking is that we evaluate the success of our business not by how much money it brought us, but by how many successful graduates will remember us with gratitude, having achieved success.</p>
+        </div>
+
+        <div class="our-advantages-popup__image">
+          <div class="our-advantages-popup__info-text">
+            <p>The idea of starting the training is around something other than the revenue generation and recruitment concerns but instead is around knowledge sharing and advisory.</p>
+            <p>The main message of our undertaking is that we evaluate the success of our business not by how much money it brought us, but by how many successful graduates will remember us with gratitude, having achieved success.</p>
+          </div>
+          <div class="our-advantages-popup__image-chat">
+            <svg class="tail-right">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tail-right"></use>
+            </svg>
+            Hi! I’m Michael Glazer<br>
+            I'm the <b>founder and head Trainer</b> of the course
+          </div>
+          <a target="_blank" class="social-link" style="margin-right: 80px; margin-bottom: 20px;" 
+            href="https://www.linkedin.com/company/forkjoin">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.0417 17.0425H14.0783V12.4001C14.0783 11.2932 14.0584 9.86783 12.5368 9.86783C10.9933 9.86783 10.757 11.0737 10.757 12.3187V17.0421H7.79363V7.49788H10.6385V8.80237H10.6768C10.9616 8.31554 11.373 7.91507 11.8674 7.64359C12.3617 7.37212 12.9205 7.23982 13.484 7.26078C16.4877 7.26078 17.0417 9.23669 17.0417 11.8069V17.0425ZM4.44967 6.19301C4.10948 6.19309 3.77691 6.09228 3.49402 5.90333C3.21112 5.71438 2.99061 5.44577 2.86038 5.13149C2.73014 4.81721 2.69603 4.47136 2.76235 4.13769C2.82867 3.80401 2.99244 3.4975 3.23297 3.25692C3.47349 3.01633 3.77995 2.85248 4.1136 2.78608C4.44725 2.71968 4.79309 2.75372 5.10739 2.88389C5.42169 3.01407 5.69033 3.23452 5.87933 3.51738C6.06834 3.80025 6.16922 4.13281 6.16922 4.47301C6.16922 4.92911 5.98807 5.36655 5.6656 5.6891C5.34313 6.01165 4.90576 6.19291 4.44967 6.19301ZM5.93136 17.0421H2.96491V7.49788H5.93174L5.93136 17.0421ZM18.5176 0.00130005H1.47555C1.28384 -0.0010304 1.09355 0.0344781 0.915573 0.105793C0.737601 0.177107 0.575442 0.282827 0.438382 0.416899C0.301321 0.550971 0.192051 0.710762 0.116827 0.887123C0.0416035 1.06348 0.00190311 1.25295 0 1.44468V18.5565C0.00455366 18.9435 0.162555 19.313 0.439296 19.5836C0.716037 19.8542 1.08888 20.004 1.47593 19.9999H18.5176C18.9057 20.0051 19.28 19.856 19.5581 19.5853C19.8363 19.3146 19.9955 18.9446 20.0009 18.5565V1.44161C19.9953 1.05377 19.8359 0.684017 19.5578 0.413693C19.2796 0.14337 18.9055 -0.00538536 18.5176 0.000149082" fill="#BCCCE1"></path>
+            </svg>
+            <span>linkedin</span>
+          </a>
+          <img class="team-image" src="/img/team/team7-popup.jpg" alt="">
         </div>
       </div>
     </div>
@@ -491,12 +533,358 @@
         </div>
       </div>
     </div>
-
   </div>
 
+  <div class="popup-block qa-popup" style="opacity: 0;" id="qa-popup">
+    <div class="popup-block__overlay"></div>
+    <div class="popup-block__wrap qa-popup__wrap">
+      <div class="qa-popup__info">
+        <div class="qa-popup__info-title">
+          <span class="title">Common questions</span>
+          <div class="qa-popup__list">
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-1" data-bs-toggle="collapse">
+                <div class="qa-popup__list-question">
+                  What is the peculiarity of the course program compared to other IT schools?
+                  <span class="qa-popup__list-question-plus"><i class="bi bi-plus-lg"></i></span>
+                </div>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-1">
+                Our program is not just a dry presentation of theory; it is 80% practice in the playground. We teach our students on real projects. After completing the course, you can add this experience to your CV with references. Our goal is to engage our students in production-quality life cycle development.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-2" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  What criteria are used to select teachers for courses?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+            </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-2">
+                Our trainers are very senior IT professionals with impressive experience of 15 to 25+ years in the USA's most successful world-known companies in the financial sector. In their teaching style, they emphasize practice. You can read more about our trainers on the website at (link).
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-3" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  What is the cost and period of study?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-3">
+                PM - 20 sessions with an exit interview, 800$, up to 10 students
+                QA - 20 sessions with an exit interview, 800$, up to 10 students
+                React for Seasoned Developers - 20 sessions, $1,500, up to 10 students
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-4" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Where does the training take place?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-4">
+                Training sessions are held online conveniently, providing the necessary training materials and access to an actual project to develop practical skills.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-5" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  What are the prospects for graduates' careers?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-5">
+                We provide all the conditions to maximize the horizon of prospects for our graduates: assistance with CVs, assistance in preparing for an interview, recommendations from our leadership team, and direct participation in employment for the best graduates.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-6" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Who is this course for? Need preparation?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p> 
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-6">
+                Beginners without technical knowledge can learn the PM and QA courses; the acquisition of skills will occur in the process of learning and practice. Choosing a school with an experienced trainers who will help develop your HARD and Soft skills is critically important. Proficiency in English is a big plus, which is a natural requirement for many careers in information technology. However, we will be flexible with training in Ukrainian and Russian languages.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-7" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Will there be homework? Is the completed task checked?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p> 
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-7">
+                Yes. The home work is a part of the program.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-8" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  What is more emphasized in the classroom? Practice or theory?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p> 
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-8">
+                The study will take place on an actual project according to the newest and most relevant program with homework checks and feedback from an experienced teacher. Your theory with actual practice (Hard skills). At the end of the course, you have a finished project that you can safely add to CV.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-9" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  How do you decide on a course? What is most in demand right now?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p> 
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-9">
+                It is necessary to decide on the type of course and school. Therefore, it is essential not only to determine the type of course and school but also on the experience of Trainers. We will not be modest and proudly declare that our tutors are our main advantage. They are practitioners with impressive track record of 15 to 25+ years in world-famous IT companies in the USA’s financial market.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-10" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Is there mentor support for each student?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-10">
+                We provide support to every student via Slack.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-11" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  How many students are in groups?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-11">
+                Up to 10 students.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-12" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Is there a job after completion of the course?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-12">
+                It is possible that upon successful completion of the course, the student will be provided with employment.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-13" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Is there a payment plan for the course?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-13">
+                The first lesson is free for everyone. Subsequently, we ask for an advance payment for the course in the amount of 100% of the cost. You can return the full cost of the course within the first three lessons.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-14" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Will I get a certificate and recommendations?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-14">
+                Of course, we provide an internal certificate of completion of the course and recommendations from our tutors according to your progress.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-15" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Can I get a refund if the course doesn't suit me?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p> 
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-15">
+                We promise to make every effort to make our course a truly rewarding and interesting experience for you. But if for some reason during the first three lessons you find our course not suitable for you, we will refund you 100% of the advanced course fee within fourteen days. After the fourth lesson, the cost of the course is not refundable.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-16" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Is there a trial lesson?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-16">
+                We provide a free trial lesson for every new student. In the trial lesson, you can get to know our tutors and our training program, get information about the prospects of the path you have chosen and decide whether you want to move on with us to your new career in IT.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-17" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  How to pay for the course?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-17">
+                You can pay for the course you have chosen by direct transfer from any bank to our current account using the details provided by our manager.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-18" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Can I start studying from the middle of the course?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-18">
+                No.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-19" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  What kind of laptop do I need for classes?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-19">
+                Standard laptop for office work with minimum requirements: i3 processor, at least 8GB RAM and 256GB SSD.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-20" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  If I have no experience, can I study at your school?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-20">
+                Of course! We have IT courses that provide basic knowledge to those who have just decided to start their IT journey.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-21" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Are there English classes?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-21">
+                No, our program does not include English classes, but through our practice-packed lessons you will quickly master the required level of technical English.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-22" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  What format of training: online or offline?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-22">
+                To date, our courses involve only online format.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-23" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  What is the payment deadline for the course?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-23">
+                After the trial class, having decided to move on with us, you will have three days to pay the full cost of the course you have chosen.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-24" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Do you employ students?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-24">
+                After completing our course, we will help you create a competitive CV and prepare for an interview, and the most successful graduates will receive recommendations from our top tutors, direct assistance in finding employment in various IT companies or a job offer at ForkJoin.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-25" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Is it possible to communicate with teachers before the start of the course?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-25">
+                Yes, you can ask all your questions during the trial lesson. Each student will have a personal 15 minute conversation with a tutor.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-26" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  How relevant are the course programs?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-26">
+                The course program is built on the latest textbooks and tutoring from teachers with impressive experience of 15 to 25+ years in world-famous IT companies.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-27" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  How is communication with teachers, groups and school administration carried out?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p> 
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-27">
+                Via usual means of communication such as Slack, Telegram and Email.
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-28" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  Will I have any portfolio after graduation?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-28">
+                The studying will take place on a real project according to the newest and most relevant program with homework checks and feedback from an experienced teacher. Your theory with real practice (Hard skills). At the end of the course, you have a finished project that you can safely add to SV. The best students in the course will receive recommendations from our teachers (LinkedIn).
+              </p>
+            </div>
+            <div class="qa_popup__list-item">
+              <a href="#" data-bs-target="#qa-answer-29" data-bs-toggle="collapse">
+                <p class="qa-popup__list-question">
+                  What language is the course material taught in?
+                    <i class="bi bi-plus-lg qa-popup__list-question-plus"></i>
+                </p>
+              </a>
+              <p class="qa-popup__list-answer collapse" id="qa-answer-29">
+                The educational process is conducted in Russian and English. These are the languages ​​that most of our Advisors speak fluently. At the same time, we draw your attention to the fact that we do not conduct economic activities in the Russian Federation, we do not pay taxes in the Russian Federation, we are an international school officially registered in the United States, and we accept students from all over the world without supporting discrimination on any grounds.
+              </p>
+            </div>
+          </div>
+          <p>If you still have questions for us, we will be happy to answer them </p>
+          <a target="_blank" class="social-link" href="https://t.me/miglazer">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.65 2.1052L0.933877 8.62189C-0.275178 9.08512 -0.268184 9.7285 0.71205 10.0154L5.2605 11.3689L15.7843 5.03519C16.2819 4.74638 16.7365 4.90175 16.3628 5.21819L7 13V18C7.80705 18 10.0412 15.1106 10.6523 14.5438L15.2477 17.7817C16.095 18.2268 16.7036 17.998 16.9144 17.0334L19.931 3.47202C20.2398 2.29107 19.4584 1.75635 18.65 2.1052Z" fill="#BCCCE1"></path>
+            </svg>
+            <span>telegram</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
   <script src="/js/typed_2.0.16.umd.js"></script>
   <script src="/js/libs.min.js"></script>
   <script src="/js/script.js"></script>
+  <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"
+></script>
 </body>
 
 </html>
