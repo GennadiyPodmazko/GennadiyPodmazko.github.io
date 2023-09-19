@@ -65,7 +65,7 @@ window.addEventListener('load', () => {
 
   try {
     let typed = new Typed('#typed', { // id of the block for animation
-      strings: ['Write your own ticket.'], // Text
+      strings: ['Write your own ticket!'], // Text
       typeSpeed: 200, // Printing speed
       startDelay: 0, // Delay before starting animation
       backSpeed: 50, // Speed of deleting
