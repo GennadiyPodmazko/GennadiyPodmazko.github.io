@@ -24,8 +24,11 @@ body.body_popup-open {
   background: none;
 }
 
-.row {
+.co {
   display: flex;
+}
+.content-end {
+  justify-content: end;
 }
 
 button {
@@ -865,6 +868,7 @@ img.logo:hover {
   position: relative;
   z-index: 2;
   margin-bottom: 0px;
+  text-shadow: 2px 2px 2px black;
 }
 .our-goal__row {
   display: flex;
@@ -1343,6 +1347,13 @@ img.logo:hover {
     display: block;
   }
 }
+.contacts-item__links div {
+  display: flex;
+  justify-content: end;
+}
+.contacts-item__links i {
+  font-size: 24px;
+}
 .contacts-item__links a {
   font-weight: 700;
   font-size: 36px;
@@ -1351,6 +1362,7 @@ img.logo:hover {
   display: block;
   text-align: right;
   text-decoration: none;
+  margin-right: 20px;
 }
 @media (max-width: 1330px) {
   .contacts-item__links a {
@@ -1647,6 +1659,7 @@ img.logo:hover {
   font-weight: 700;
   margin-bottom: 20px;
   position: relative;
+  text-shadow: 2px 2px 2px black;
 }
 .our-advantages__sub-title {
   text-align: center;
@@ -2029,6 +2042,7 @@ img.logo:hover {
   text-align: center;
   display: block;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 2px black;
 }
 @media (max-width: 670px) {
   .upcoming-courses__title {
