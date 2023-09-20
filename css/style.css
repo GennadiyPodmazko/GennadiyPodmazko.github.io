@@ -1664,11 +1664,6 @@ img.logo:hover {
   font-size: 1.3em;
   transition: all .2s ease-in-out;
 }
-/* @media (max-width: 670px) {
-  .our-advantages__text_link {
-
-  }
-} */
 .our-advantages__row {
   display: flex;
   margin-bottom: 30px;
