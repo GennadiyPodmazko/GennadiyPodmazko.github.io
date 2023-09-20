@@ -1981,7 +1981,7 @@ img.logo:hover {
   stroke-dashoffset: 102;
 }
 
-.our-projects {
+.upcoming-courses {
   position: relative;
   padding: 48px 20px 0;
   background: #8E97DF;
@@ -1989,50 +1989,40 @@ img.logo:hover {
   height: 628px;
 }
 @media (max-width: 1300px) {
-  .our-projects {
+  .upcoming-courses {
     height: 615px;
   }
 }
 @media (max-width: 1270px) {
-  .our-projects {
+  .upcoming-courses {
     height: 627px;
   }
 }
 @media (max-width: 670px) {
-  .our-projects {
+  .upcoming-courses {
     height: 464px;
     padding: 40px 26px 0;
   }
 }
-.our-projects.start-animation .our-projects__animation .ticks {
+.upcoming-courses.start-animation .upcoming-courses__animation .ticks {
   top: -160px;
 }
 @media (max-width: 670px) {
-  .our-projects.start-animation .our-projects__animation .ticks {
+  .upcoming-courses.start-animation .upcoming-courses__animation .ticks {
     top: -122px;
   }
 }
 @media (hover), (min-width: 0\0 ), (min--moz-device-pixel-ratio: 0) {
-  .our-projects:hover .our-projects__animation .ticks {
+  .upcoming-courses:hover .upcoming-courses__animation .ticks {
     top: -160px;
   }
 }
 @media (hover) and (max-width: 670px), (min-width: 0\0 ) and (max-width: 670px), (min--moz-device-pixel-ratio: 0) and (max-width: 670px) {
-  .our-projects:hover .our-projects__animation .ticks {
+  .upcoming-courses:hover .upcoming-courses__animation .ticks {
     top: -122px;
   }
 }
-.our-projects__subtitle {
-  position: relative;
-  z-index: 3;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 100%;
-  text-align: center;
-  display: block;
-  margin-bottom: 12px;
-}
-.our-projects__title {
+.upcoming-courses__title {
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -2040,14 +2030,38 @@ img.logo:hover {
   line-height: 100%;
   text-align: center;
   display: block;
+  margin-bottom: 20px;
 }
 @media (max-width: 670px) {
-  .our-projects__title {
+  .upcoming-courses__title {
     font-size: 36px;
     line-height: 38px;
   }
 }
-.our-projects__animation {
+.upcoming-courses__text {
+  position: relative;
+  z-index: 3;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  display: block;
+  margin-bottom: 12px;
+}
+.upcoming-courses__text p {
+  padding-left: 20%;
+}
+.upcoming-courses__course-name {
+  font-size: 1.5em;
+}
+.upcoming-courses__link {
+  padding-left: 37px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.upcoming-courses__link:hover {
+  font-size: 32px;
+}
+.upcoming-courses__animation {
   position: absolute;
   top: 0;
   left: 0;
@@ -2055,7 +2069,7 @@ img.logo:hover {
   height: 100%;
   z-index: 2;
 }
-.our-projects__animation .bg {
+.upcoming-courses__animation .bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -2064,19 +2078,19 @@ img.logo:hover {
   z-index: 4;
 }
 @media (max-width: 670px) {
-  .our-projects__animation .bg_desk {
+  .upcoming-courses__animation .bg_desk {
     display: none;
   }
 }
-.our-projects__animation .bg_mob {
+.upcoming-courses__animation .bg_mob {
   display: none;
 }
 @media (max-width: 670px) {
-  .our-projects__animation .bg_mob {
+  .upcoming-courses__animation .bg_mob {
     display: block;
   }
 }
-.our-projects__animation .ticks-wrap {
+.upcoming-courses__animation .ticks-wrap {
   position: absolute;
   width: 141px;
   z-index: 2;
@@ -2085,14 +2099,14 @@ img.logo:hover {
   transform: rotate(-12deg);
 }
 @media (max-width: 670px) {
-  .our-projects__animation .ticks-wrap {
+  .upcoming-courses__animation .ticks-wrap {
     width: 118px;
     left: 54px;
     top: 177px;
     transform: rotate(-12.5deg);
   }
 }
-.our-projects__animation .ticks-wrap::after {
+.upcoming-courses__animation .ticks-wrap::after {
   content: "";
   display: block;
   position: absolute;
@@ -2103,20 +2117,20 @@ img.logo:hover {
   background: rgba(0, 11, 121, 0.2784313725);
   z-index: 2;
 }
-.our-projects__animation .ticks {
+.upcoming-courses__animation .ticks {
   position: absolute;
   left: 0;
   top: -15px;
   width: 100%;
   transition: 0.5s;
 }
-.our-projects .grid-item__link {
+.upcoming-courses .grid-item__link {
   right: 20px;
   width: 80px;
   height: 80px;
 }
 @media (max-width: 670px) {
-  .our-projects .grid-item__link {
+  .upcoming-courses .grid-item__link {
     width: 48px;
     height: 48px;
     right: 16px;
@@ -2682,7 +2696,7 @@ img.logo:hover {
 }
 .home-video__title {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 100%;
   text-align: center;
   color: #FFFFFF;
