@@ -2047,6 +2047,7 @@ img.logo:hover {
 }
 .upcoming-courses__text p {
   padding-left: 20%;
+  margin-bottom: 5px;
 }
 .upcoming-courses__course-name {
   font-size: 1.5em;
