@@ -2059,6 +2059,9 @@ img.logo:hover {
   display: block;
   margin-bottom: 12px;
 }
+.upcoming-courses__text hr {
+  margin-bottom: 10px;
+}
 .upcoming-courses__text p {
   padding-left: 20%;
   margin-bottom: 5px;
@@ -2081,6 +2084,7 @@ img.logo:hover {
   width: 100%;
   height: 100%;
   z-index: 2;
+  filter: brightness(0.9);
 }
 .upcoming-courses__animation .bg {
   position: absolute;
