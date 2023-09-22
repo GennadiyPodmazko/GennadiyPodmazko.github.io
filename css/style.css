@@ -1687,6 +1687,12 @@ img.logo:hover {
   z-index: 1;
   left: auto;
 }
+.our-advantages__icon {
+  transition: 0.5s;
+}
+.our-advantages__icon:hover {
+  scale: 1.1;
+}
 .our-advantages__partner-logo {
   display: block;
   width: auto;

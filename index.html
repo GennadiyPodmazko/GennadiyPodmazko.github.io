@@ -913,6 +913,7 @@
         crossorigin="anonymous"
 ></script>
 <script>
+  /* Copy to clickboard */
     function copyToClickboard(element) {
 
     navigator.clipboard.writeText(element.value);
@@ -921,7 +922,7 @@
     svgCheck.setAttribute("class", "bi bi-check2")
 
     element.replaceChildren(svgCheck);
-    
+
     setTimeout(function() {
       let svgClickboard = document.createElement("i");
       svgClickboard.setAttribute("class", "bi bi-clipboard")
