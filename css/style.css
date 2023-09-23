@@ -1635,7 +1635,7 @@ img.logo:hover {
 .our-advantages {
   background: linear-gradient(180deg, #343C81 0%, #6371BC 77.65%);
   position: relative;
-  padding: 40px 40px 0 40px;
+  padding: 40px 20px 10px 20px;
   justify-content: space-between;
   color: white;
   font-size: 14px;
@@ -4057,6 +4057,17 @@ justify-content: center;
   object-fit: cover;
   margin-bottom: -82px;
   margin-right: -55px;
+}
+
+.project-popup__image .team-image-daria {
+  position: relative;
+  width: 355px;
+  max-width: calc(100% + 55px);
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: -82px;
+  margin-right: -55px;
+  bottom: 50px;
 }
 .project-popup__image .team-image-rounded {
   border-radius: 50%;
