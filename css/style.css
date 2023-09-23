@@ -2695,7 +2695,7 @@ img.logo:hover {
   transition: 0.3s;
 }
 .home-video__image_anton {
-  background: url(../img/video-bg2.jpg) no-repeat center/cover;
+  background: url(../img/team/team1.jpg) no-repeat center/cover;
 }
 .home-video video {
   position: absolute;
@@ -2711,7 +2711,7 @@ img.logo:hover {
   font-size: 18px;
   line-height: 100%;
   text-align: center;
-  color: #1C2047;
+  color: #fff;
   display: block;
   margin-bottom: 12px;
   position: relative;
@@ -2722,7 +2722,7 @@ img.logo:hover {
   font-size: 18px;
   line-height: 100%;
   text-align: center;
-  color: #1C2047;
+  color: #fff;
   display: block;
   position: relative;
   z-index: 2;
