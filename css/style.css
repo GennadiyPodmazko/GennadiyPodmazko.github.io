@@ -3472,6 +3472,23 @@ justify-content: center;
   }
 }
 
+.input-register-course  {
+  transition: 0.5s;
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 30px;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #6686af;
+  width: 100%;
+  font-size: 18px;
+  padding: 15px 30px 15px 30px;
+  background: white;
+}
+
 .course-pm {
   background: linear-gradient(180deg, #343C81 0%, #6371BC 77.65%);
   padding: 40px 30px;
