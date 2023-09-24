@@ -639,7 +639,7 @@ img.logo:hover {
 }
 @media (max-width: 600px) {
   .header__list-item {
-    padding: 12px;
+    padding: 4px;
   }
 }
 .header__list-item.active {
@@ -1332,21 +1332,7 @@ img.logo:hover {
 .contacts-item__social .social-link {
   background: #FAFCFF;
 }
-@media (max-width: 1330px) {
-  .contacts-item__links {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    order: -1;
-  }
-}
-@media (max-width: 670px) {
-  .contacts-item__links {
-    margin-bottom: 24px;
-    display: block;
-  }
-}
+
 .contacts-item__links div {
   display: flex;
   justify-content: end;
@@ -1363,6 +1349,30 @@ img.logo:hover {
   text-align: right;
   text-decoration: none;
   margin-right: 20px;
+}
+@media (max-width: 1300px) {
+  .contacts-item__links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    order: -1;
+  }
+  .contacts-item__links a {
+    font-size: 24px !important;
+  }
+}
+@media (max-width: 670px) {
+  .contacts-item__links {
+    margin-bottom: 24px;
+    display: block;
+  }
+  .contacts-item__links div {
+    justify-content: center;
+  }
+  .contacts-item__links a {
+    font-size: 18px !important;
+  }
 }
 @media (max-width: 1330px) {
   .contacts-item__links a {
@@ -2052,8 +2062,8 @@ img.logo:hover {
 }
 @media (max-width: 670px) {
   .upcoming-courses__title {
-    font-size: 36px;
-    line-height: 38px;
+    font-size: 24px;
+    line-height: 10px;
   }
 }
 .upcoming-courses__text {
@@ -2064,6 +2074,11 @@ img.logo:hover {
   line-height: 100%;
   display: block;
   margin-bottom: 12px;
+}
+@media (max-width: 670px) {
+  .upcoming-courses__text {
+    font-size: 18px;
+  }
 }
 .upcoming-courses__text hr {
   margin-bottom: 10px;
@@ -4181,6 +4196,12 @@ justify-content: center;
 @media (prefers-reduced-motion: reduce) {
   .collapsing {
     transition: none;
+  }
+}
+
+@media (max-width: 660px) {
+  .mob-hide {
+    display: none;
   }
 }
 
