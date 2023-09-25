@@ -371,19 +371,50 @@
     </div>
   </div>
 
-  <div class="popup-block course-pm-popup" style="opacity: 0;" id="register-for-course">
+  <div class="popup-block register-course-popup" style="opacity: 0;" id="register-for-course">
     <div class="popup-block__overlay"></div>
-    <div class="popup-block__wrap qa-popup__wrap">
-      <div class="course-pm-popup__info">
-        <div>
-          Contact our consultants who will be happy to answer all your questions, help you choose the right course and take the first step towards your career in IT.
-        </div>
-        <div style="display: flex; padding-top: 20px;">
-          <input class="input-register-course" placeholder="First name">
-        </div>
-        <div style="display: flex; padding-top: 20px;">
-          <input class="input-register-course" placeholder="Email">
-        </div>
+    <div class="popup-block__wrap register-course-popup__wrap">
+      <div class="register-course-popup__info">
+        <form id="registerCoursForm">
+          <div class="title">
+            Reach your goals with us!
+          </div>
+          <div class="sub-title">
+            Contact our consultants who will be happy to answer all your questions, help you choose the right course and take the first step towards your career in IT.
+          </div>
+          <div class="register-course-rounded-div">
+            <input type="text" class="register-course-input" placeholder="First name" name="name">
+          </div>
+          <div class="register-course-rounded-div">
+            <input type="email" class="register-course-input" placeholder="Email" name="email">
+          </div>
+          <div class="register-course-rounded-div">
+            <select class="register-course-select" name="countryCode">
+              <option value="+380">🇺🇦+380</option>
+              <option value="USA">🇺🇸USA</option>
+            </select>
+            <input type="text" class="register-course-input" name="phone">
+          </div>
+          <div class="register-course-rounded-div">
+            <select class="register-course-select" style="width: 100%;">
+              <option>Chose a course</option>
+              <option value="PM">PM+BA</option>
+              <option value="QA">QA</option>
+            </select>
+          </div>
+          <div class="register-course-div">
+            <input type="checkbox" class="register-course-checkbox" name="policy">
+            <span class="checkbox-label w-form-label" for="Accepted-General">
+              By submitting this form, I accept the 
+              <a href="#" class="register-course-policy-link" >Privacy Policy</a> 
+              and the 
+              <a href="#" class="register-course-policy-link">Terms of Use</a>
+            </span>
+          </div>
+          <div class="register-course-div">
+            <button class="register-course-btn">Confirm</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
@@ -700,6 +731,10 @@
         element.replaceChildren(svgClickboard);
       }, 2000)
     }
+    /* Register course form */
+    let registerCourseForm = document.getElementById("registerCourseForm");
+
+
   </script>
 
 </body>

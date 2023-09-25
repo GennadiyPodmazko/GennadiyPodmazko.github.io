@@ -77,7 +77,7 @@
             <a href="/" class="header__list-item">About us</a>
             <a href="/our_courses.html" class="header__list-item">Our Courses</a>
             <a href="/team.html" class="header__list-item active">Our Trainers</a>
-            <a href="#contacts" class="header__list-item">Free consultation</a>
+            <a href="#register-for-course" class="header__list-item popup-link">Free consultation</a>
           </div>
         </div>
       </div>
@@ -779,6 +779,54 @@
             <img class="team-image team-image-rounded team-image-offset-to-bottom-right" src="/img/team/team2.jpg" alt="">
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup-block register-course-popup" style="opacity: 0;" id="register-for-course">
+    <div class="popup-block__overlay"></div>
+    <div class="popup-block__wrap register-course-popup__wrap">
+      <div class="register-course-popup__info">
+        <form id="registerCoursForm">
+          <div class="title">
+            Reach your goals with us!
+          </div>
+          <div class="sub-title">
+            Contact our consultants who will be happy to answer all your questions, help you choose the right course and take the first step towards your career in IT.
+          </div>
+          <div class="register-course-rounded-div">
+            <input type="text" class="register-course-input" placeholder="First name" name="name">
+          </div>
+          <div class="register-course-rounded-div">
+            <input type="email" class="register-course-input" placeholder="Email" name="email">
+          </div>
+          <div class="register-course-rounded-div">
+            <select class="register-course-select" name="countryCode">
+              <option value="+380">🇺🇦+380</option>
+              <option value="USA">🇺🇸USA</option>
+            </select>
+            <input type="text" class="register-course-input" name="phone">
+          </div>
+          <div class="register-course-rounded-div">
+            <select class="register-course-select" style="width: 100%;">
+              <option>Chose a course</option>
+              <option value="PM">PM+BA</option>
+              <option value="QA">QA</option>
+            </select>
+          </div>
+          <div class="register-course-div">
+            <input type="checkbox" class="register-course-checkbox" name="policy">
+            <span class="checkbox-label w-form-label" for="Accepted-General">
+              By submitting this form, I accept the 
+              <a href="#" class="register-course-policy-link" >Privacy Policy</a> 
+              and the 
+              <a href="#" class="register-course-policy-link">Terms of Use</a>
+            </span>
+          </div>
+          <div class="register-course-div">
+            <button class="register-course-btn">Confirm</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
