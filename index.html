@@ -9,11 +9,11 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/fonts/stylesheet.css">
   <link rel="stylesheet" href="/css/style.css">
-
-  <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
+  <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css"/>
   <title>forkjoin</title>
 </head>
 
@@ -61,7 +61,7 @@
             <a href="https://forkjoin.io/" class="header__list-logo" target=”_blank”>
               <img src="/img/logo.svg" class="logo" alt="">
             </a>
-            <a href="index.html" class="header__list-logo" target=”_blank”>
+            <a href="index.html" class="header__list-logo">
               <img src="/img/school_logo.svg" class="logo" alt="">
             </a>
             <a href="/" class="header__list-item">About us</a>
@@ -184,7 +184,7 @@
             </div> 
           </div>
           
-          <p class="grid-item__footer">
+          <p class="grid-item__footer hide-mob">
             DETAILS
           </p>
           <a href="#our-advantages-popup" class="grid-item__link popup-link">
@@ -270,7 +270,7 @@
           <span class="grid-item__title">Q&A</span>
           <div class="qa_body-text">We answer the most common questions</div>
           <img class="qa_body-img" src="./img/question_sign.png" alt="">
-          <p class="grid-item__footer">
+          <p class="grid-item__footer hide-mob">
             DETAILS
           </p>
           <a target="_blank" href="#qa-popup" class="grid-item__link popup-link">
@@ -924,15 +924,11 @@
             <input type="email" class="register-course-input" placeholder="Email" name="email">
           </div>
           <div class="register-course-rounded-div">
-            <select class="register-course-select" name="countryCode">
-              <option value="+380">🇺🇦+380</option>
-              <option value="USA">🇺🇸USA</option>
-            </select>
-            <input type="text" class="register-course-input" name="phone">
+            <input type="text" class="register-course-input" name="phone" id="phone">
           </div>
           <div class="register-course-rounded-div">
-            <select class="register-course-select" style="width: 100%;">
-              <option>Chose a course</option>
+            <select class="register-course-select" name="course">
+              <option value="">Chose a course</option>
               <option value="PM">PM+BA</option>
               <option value="QA">QA</option>
             </select>
@@ -954,33 +950,12 @@
     </div>
   </div>
   
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
+  <script src="./js/bootstrap@5.2.3.min.js"></script>
   <script src="/js/typed_2.0.16.umd.js"></script>
   <script src="/js/libs.min.js"></script>
   <script src="/js/script.js"></script>
-  <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"
-></script>
-<script>
-  /* Copy to clickboard */
-    function copyToClickboard(element) {
 
-    navigator.clipboard.writeText(element.value);
-
-    let svgCheck = document.createElement("i");
-    svgCheck.setAttribute("class", "bi bi-check2")
-
-    element.replaceChildren(svgCheck);
-
-    setTimeout(function() {
-      let svgClickboard = document.createElement("i");
-      svgClickboard.setAttribute("class", "bi bi-clipboard")
-
-      element.replaceChildren(svgClickboard);
-    }, 2000)
-  }
-</script>
 </body>
 
 </html>

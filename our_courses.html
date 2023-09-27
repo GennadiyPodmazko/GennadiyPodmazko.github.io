@@ -9,10 +9,11 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/fonts/stylesheet.css">
   <link rel="stylesheet" href="/css/style.css">
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-/>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+  />
+  <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css"/>
   <title>forkjoin</title>
 </head>
 
@@ -60,7 +61,7 @@
             <a href="https://forkjoin.io/" class="header__list-logo" target=”_blank”>
               <img src="/img/logo.svg" class="logo" alt="">
             </a>
-            <a href="index.html" class="header__list-logo" target=”_blank”>
+            <a href="index.html" class="header__list-logo">
               <img src="/img/school_logo.svg" class="logo" alt="">
             </a>
             <a href="/" class="header__list-item">About us</a>
@@ -92,7 +93,7 @@
 
         <div data-delay="700" data-delaymob="700" class="grid-item course-qa">
           <span class="grid-item__title">QA</span>
-          <p class="grid-item__footer">
+          <p class="grid-item__footer hide-mob">
             DETAILS
           </p>
           <a target="_blank" href="#course-qa-popup" class="grid-item__link popup-link">
@@ -108,7 +109,7 @@
             <div class="sub-title-pm">PM</div>
             <div class="sub-title-ba">+BA</div>
           </div>
-          <p class="grid-item__footer">
+          <p class="grid-item__footer hide-mob">
             DETAILS
           </p>
           <a target="_blank" href="#course-pm-popup" class="grid-item__link popup-link">
@@ -563,15 +564,11 @@
             <input type="email" class="register-course-input" placeholder="Email" name="email">
           </div>
           <div class="register-course-rounded-div">
-            <select class="register-course-select" name="countryCode">
-              <option value="+380">🇺🇦+380</option>
-              <option value="USA">🇺🇸USA</option>
-            </select>
-            <input type="text" class="register-course-input" name="phone">
+            <input type="text" class="register-course-input" name="phone" id="phone">
           </div>
           <div class="register-course-rounded-div">
-            <select class="register-course-select" style="width: 100%;" name="course">
-              <option>Chose a course</option>
+            <select class="register-course-select" name="course">
+              <option value="">Chose a course</option>
               <option value="PM">PM+BA</option>
               <option value="QA">QA</option>
             </select>
@@ -884,56 +881,9 @@
 
   </div>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
   <script src="/js/libs.min.js"></script>
   <script src="/js/script.js"></script>
-  <script>
-    /* Copy to clickboard */
-    function copyToClickboard(element) {
-  
-      navigator.clipboard.writeText(element.value);
-  
-      let svgCheck = document.createElement("i");
-      svgCheck.setAttribute("class", "bi bi-check2")
-  
-      element.replaceChildren(svgCheck);
-  
-      setTimeout(function() {
-        let svgClickboard = document.createElement("i");
-        svgClickboard.setAttribute("class", "bi bi-clipboard")
-  
-        element.replaceChildren(svgClickboard);
-      }, 2000)
-    }
-    /* Register course form */
-    let registerCourseForm = document.getElementById("registerCourseForm");
-    registerCourseForm.addEventListener('submit', sendRegisterRequest);
-    function sendRegisterRequest(event) {
-      event.preventDefault(); 
-      let name = this.name.value;
-      let email = this.email.value;
-      let countryCode = this.countryCode.value;
-      let phone = this.phone.value;
-      let course = this.course.value;
-      
-      const response = fetch("https://docs.google.com/forms/d/e/1FAIpQLSccf7WdfEaVK95-tgVP8lzaENGC1er5G5FDZWnu8QRqGH-MbQ/formResponse"
-      , {
-        method: "POST", // *GET, POST, PUT, DELETE, etc.
-        mode: "cors", // no-cors, *cors, same-origin
-        // cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
-        // credentials: "same-origin", // include, *same-origin, omit
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-          // 'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        redirect: "follow", // manual, *follow, error
-        referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-        body: "entry.1239952446=Gennadiy&entry.2046075764=gpodmazko%40forkjoin.com&entry.1314615058=%2B380&entry.2134381035=632707177&entry.1078540857=QA&fvv=1&partialResponse=%5Bnull%2Cnull%2C%224625185403490877421%22%5D&pageHistory=0&fbzx=4625185403490877421", // body data type must match "Content-Type" header
-      });
-      console.log(response);
-    }
-   
-  </script>
 
 </body>
 

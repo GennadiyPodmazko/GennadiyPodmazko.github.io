@@ -254,12 +254,6 @@ window.addEventListener('load', () => {
     });
   }
 
-
-  const popupLinks = document.querySelectorAll('.popup-link');
-  const popups = document.querySelectorAll('.popup-block');
-  const popupOverlays = document.querySelectorAll('.popup-block__overlay');
-  const popupClose = document.querySelectorAll('.popup-block__close');
-
   popupLinks.forEach((link) => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
@@ -268,15 +262,6 @@ window.addEventListener('load', () => {
     });
   });
 
-
-  function closeAllPopup() {
-      document.querySelector('body').classList.remove('body_popup-open');
-
-      popups.forEach((popup) => {
-        popup.classList.remove('popup-open');
-      });
-  }
-
   popupOverlays.forEach((overlay) => {
     overlay.addEventListener('click', closeAllPopup);
   });
@@ -284,3 +269,109 @@ window.addEventListener('load', () => {
     close.addEventListener('click', closeAllPopup);
   });
 });
+
+const popupLinks = document.querySelectorAll('.popup-link');
+  const popups = document.querySelectorAll('.popup-block');
+  const popupOverlays = document.querySelectorAll('.popup-block__overlay');
+  const popupClose = document.querySelectorAll('.popup-block__close');
+
+function closeAllPopup() {
+  document.querySelector('body').classList.remove('body_popup-open');
+
+  popups.forEach((popup) => {
+    popup.classList.remove('popup-open');
+  });
+}
+
+/* Copy to clickboard */
+function copyToClickboard(element) {
+  
+  navigator.clipboard.writeText(element.value);
+
+  let svgCheck = document.createElement("i");
+  svgCheck.setAttribute("class", "bi bi-check2")
+
+  element.replaceChildren(svgCheck);
+
+  setTimeout(function() {
+    let svgClickboard = document.createElement("i");
+    svgClickboard.setAttribute("class", "bi bi-clipboard")
+
+    element.replaceChildren(svgClickboard);
+  }, 2000)
+}
+
+
+/* Register course form */
+const iti = intlTelInput(document.getElementById("phone"), {
+  separateDialCode: true,
+  preferredCountries: ["ua", "us"],
+});
+
+let registerCourseForm = document.getElementById("registerCourseForm");
+registerCourseForm.addEventListener('submit', sendRegisterRequest);
+function sendRegisterRequest(event) {
+ event.preventDefault(); 
+
+ cancelValidationBorder();
+
+ let isValid = true;
+ 
+ if(!this.policy.checked) {
+   this.policy.classList.add("invalid");
+   isValid = false;
+ }
+ if(this.name.value.length>100 || this.name.value.length<1) {
+   this.name.parentElement.classList.add("invalid");
+   isValid = false;
+ }
+ if(this.email.value.length>100 || this.email.value.length<1) {
+   this.email.parentElement.classList.add("invalid");
+   isValid = false;
+ }
+ if(!this.phone.value) {
+   this.phone.parentElement.parentElement.classList.add("invalid");
+   isValid = false;
+ }
+ if(!this.course.value) {
+   this.course.parentElement.classList.add("invalid");
+   isValid = false;
+ }
+
+ if(!isValid) return;
+
+ let name = this.name.value;
+ let email = this.email.value;
+ let countryCode = iti.s.dialCode;
+ let phone = this.phone.value;
+ let course = this.course.value;
+ 
+ fetch("https://docs.google.com/forms/d/e/1FAIpQLSccf7WdfEaVK95-tgVP8lzaENGC1er5G5FDZWnu8QRqGH-MbQ/formResponse"
+ , {
+   method: "POST",
+   headers: {
+     "Content-Type": "application/x-www-form-urlencoded",
+   },
+   body: "entry.1239952446="+name
+   +"&entry.2046075764="+email
+   +"&entry.1314615058="+countryCode
+   +"&entry.2134381035="+phone
+   +"&entry.1078540857="+course
+   +"&fvv=1&partialResponse=%5Bnull%2Cnull%2C%224625185403490877421%22%5D&pageHistory=0&fbzx=4625185403490877421", // body data type must match "Content-Type" header
+ });
+
+ closeAllPopup();
+ iti.setCountry("ua");
+ this.name.value="";
+ this.email.value="";
+ this.phone.value="";
+ this.course.value="";
+ this.policy.checked=false;
+}
+
+function cancelValidationBorder() {
+ const validatedElements = [...document.getElementsByClassName("invalid")];
+ for (let item of validatedElements) {
+   item.classList.remove("invalid");
+ }
+}
