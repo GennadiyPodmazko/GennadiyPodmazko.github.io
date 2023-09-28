@@ -62,9 +62,21 @@ dataEN.set("ourAdvantages_popup_quote1", "“The main message of our undertaking
 dataUA.set("ourAdvantages_popup_quote1", "“Основний меседж нашого починання полягає в тому, що ми оцінюємо успіх нашої справи не за тим, скільки грошей вона нам принесе, а за тим, скільки успішних випускників згадуватимуть про нас із вдячністю, досягнувши успіху.”");
 dataRU.set("ourAdvantages_popup_quote1", "“Главная идея нашего начинания заключается в том, что мы оцениваем успех нашего дела не по тому, сколько денег оно нам принесет, а по тому, сколько успешных выпускников будут вспоминать нас с благодарностью, добившись успеха.”");
 
-// dataEN.set("ourAdvantages_popup_quote2", ""); ???
-// dataUA.set("ourAdvantages_popup_quote2", "");
-// dataRU.set("ourAdvantages_popup_quote2", "");
+dataEN.set("ourAdvantages_popup_quote2.1", "Hi! I’m Michael Glazer");
+dataUA.set("ourAdvantages_popup_quote2.1", "Привіт! Я Майкл Глейзер");
+dataRU.set("ourAdvantages_popup_quote2.1", "Привет! Я Майкл Глейзер");
+
+dataEN.set("ourAdvantages_popup_quote2.2", "I'm the");
+dataUA.set("ourAdvantages_popup_quote2.2", "Я");
+dataRU.set("ourAdvantages_popup_quote2.2", "Я");
+
+dataEN.set("ourAdvantages_popup_quote2.3", "founder and head Trainer");
+dataUA.set("ourAdvantages_popup_quote2.3", "засновник та головний Тренер");
+dataRU.set("ourAdvantages_popup_quote2.3", "основатель и главный Тренер");
+
+dataEN.set("ourAdvantages_popup_quote2.4", "of the course");
+dataUA.set("ourAdvantages_popup_quote2.4", "курса");
+dataRU.set("ourAdvantages_popup_quote2.4", "курса");
 
 dataEN.set("q&a_title", "Q&A");
 dataUA.set("q&a_title", "Q&A");

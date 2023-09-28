@@ -2717,11 +2717,16 @@ img.logo:hover {
     top: 30%
   }
 }
-
 @media (max-width: 600px) {
   .home__text-item {
     top: 30%;
     font-size: 40px !important;
+  }
+}
+@media (max-width: 460px) {
+  .home__text-item {
+    top: 30%;
+    font-size: 30px !important;
   }
 }
 
