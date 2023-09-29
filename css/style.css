@@ -1395,7 +1395,7 @@ img.logo:hover {
 }
 .contacts-item__links a {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 100%;
   color: #1C2047;
   display: block;
@@ -1421,10 +1421,10 @@ img.logo:hover {
     display: block;
   }
   .contacts-item__links div {
-    justify-content: center;
+    justify-content: end;
   }
   .contacts-item__links a {
-    font-size: 18px !important;
+    font-size: 22px !important;
   }
 }
 @media (max-width: 1330px) {
