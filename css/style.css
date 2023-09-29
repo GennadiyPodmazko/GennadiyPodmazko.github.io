@@ -75,6 +75,8 @@ a:hover {
 
 .social-link {
   padding: 8px 10px;
+  width: 115px;
+  height: 36px;
   background: #F2F6FB;
   border-radius: 10px;
   display: inline-flex;
@@ -549,6 +551,11 @@ a:hover {
     justify-content: center;
   }
 }
+/* @media (max-width: 780px) {
+  .header__wrap {
+    justify-content: center;
+  }
+} */
 .header__list {
   display: flex;
   align-items: center;
@@ -657,6 +664,11 @@ img.logo:hover {
   background: #FFFFFF;
   text-align: center;
   border-radius: 34px;
+}
+@media (max-width: 670px) {
+  .header__language {
+    background: #F2F6FB;
+  }
 }
 .header__language-item {
   position: relative;
@@ -4398,6 +4410,10 @@ text-align: center;
 }
 .iti{
   width: 100% !important;
+}
+
+.hide-mob {
+  display: none;
 }
 
 

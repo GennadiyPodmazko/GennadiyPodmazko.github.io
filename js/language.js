@@ -82,7 +82,7 @@ dataEN.set("q&a_title", "Q&A");
 dataUA.set("q&a_title", "Q&A");
 dataRU.set("q&a_title", "Q&A");
 
-dataEN.set("q&a_test", "We answer the most common questions");
+dataEN.set("q&a_text", "We answer the most common questions");
 dataUA.set("q&a_text", "Ми відповідаємо на найпоширеніші запитання");
 dataRU.set("q&a_text", "Мы отвечаем на самые распространенные вопросы");
 
