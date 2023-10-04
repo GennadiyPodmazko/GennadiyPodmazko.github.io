@@ -2325,13 +2325,15 @@ img.logo:hover {
   right: 16px;
   align-items: center;
   justify-content: center;
-  background: #F2F6FB;
   border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  display: none;
   color: #2E2E2E;
   transition: 0.3s;
+  display: flex;
+  background: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: 24px;
 }
 .popup-block__close:hover {
   background: #7681F3;
@@ -2340,6 +2342,14 @@ img.logo:hover {
 @media (max-width: 980px) {
   .popup-block__close {
     display: flex;
+  }
+}
+@media (max-width: 660px) {
+  .popup-block__close {
+    right: 16px;
+    top: 16px;
+    width: 32px;
+    height: 32px;
   }
 }
 .popup-block__close svg {
@@ -4088,26 +4098,7 @@ text-align: center;
   background: rgba(234, 237, 242, 0.95);
   backdrop-filter: blur(8px);
 }
-.project-popup .popup-block__close {
-  display: flex;
-  background: #FFFFFF;
-  width: 40px;
-  height: 40px;
-  right: 24px;
-  top: 24px;
-}
-@media (max-width: 660px) {
-  .project-popup .popup-block__close {
-    right: 16px;
-    top: 16px;
-    width: 32px;
-    height: 32px;
-  }
-}
-.project-popup .popup-block__close:hover {
-  background: #7681F3;
-  color: #fff;
-}
+
 .project-popup .popup-block__content {
   display: block;
   width: 100%;
