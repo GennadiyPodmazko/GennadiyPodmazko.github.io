@@ -1763,12 +1763,11 @@ img.logo:hover {
   .our-advantages {
     flex-direction: column;
     height: auto;
-    padding: 40px 24px 0;
+    padding: 20px 24px 40px 24px;
     font-size: 10px;
   }
   .our-advantages .grid-item__link {
-    bottom: auto;
-    top: 16px;
+    bottom: 16px;
     right: 15px;
   }
 }
