@@ -362,7 +362,7 @@ dataEN.set("aleksandra_pylypenko_name", "Aleksandra Pylypenko");
 dataUA.set("aleksandra_pylypenko_name", "Олександра Пилипенко");
 dataRU.set("aleksandra_pylypenko_name", "Александра Пилипенко");
 
-dataEN.set("aleksandra_pylypenko_title", "Aleksandra Pylypenko");
+dataEN.set("aleksandra_pylypenko_title", "Chief manager");
 dataUA.set("aleksandra_pylypenko_title", "Головний Менеджер");
 dataRU.set("aleksandra_pylypenko_title", "Главный Менеджер");
 
