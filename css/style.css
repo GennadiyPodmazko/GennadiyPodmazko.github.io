@@ -1119,6 +1119,10 @@ img.logo:hover {
   margin-top: 10px;
   font-size: 14px;
 }
+.qa-popup__list-answer a {
+  font-weight: 600;
+  color: blue;
+}
 @media (max-width: 980px) {
   .qa-popup__list-answer {
     font-size: 12px;
