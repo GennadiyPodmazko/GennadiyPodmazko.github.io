@@ -15,7 +15,7 @@ dataUA.set("header_ourTrainers", "Наші тренери");
 dataRU.set("header_ourTrainers", "Наши тренеры");
 
 dataEN.set("header_registerForCourse", "Free consultation");
-dataUA.set("header_registerForCourse", "Безкоштовна консультация");
+dataUA.set("header_registerForCourse", "Безкоштовна консультацiя");
 dataRU.set("header_registerForCourse", "Бесплатная консультация");
 
 dataEN.set("ourGoal_title", "Our goal");
