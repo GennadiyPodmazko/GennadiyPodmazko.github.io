@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/fonts/stylesheet.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.min.css">
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
   <link rel="stylesheet" 
@@ -78,19 +78,32 @@
             <a href="/our_courses.html" data-i18n="header_ourCourses" class="header__list-item">Our Courses</a>
             <a href="/our_advisors.html" data-i18n="header_ourTrainers" class="header__list-item">Our Trainers</a>
             <a href="#register-for-course" data-i18n="header_registerForCourse" class="header__list-item popup-link">Free consultation</a>
+            <div class="header__language-item mob-display">
+              <a href="#" data-bs-target="#navbar-language" data-bs-toggle="collapse" name="header_currentLanguage" value="en">
+                EN
+              </a>
+              <div class="collapse header__language-collapse" id="navbar-language">
+                   <div class="header__language-collapse-item" name="header_language2" value="ru">
+                    <a href="#">RU</a>
+                   </div>
+                   <div class="header__language-collapse-item" name="header_language3" value="ua">
+                    <a href="#">UA</a>
+                   </div>
+                </div>
+          </div>
           </div>
 
 
-          <div class="header__language">
+          <div class="header__language mob-hide">
             <div class="header__language-item">
-                <a href="#" data-bs-target="#navbar-language" data-bs-toggle="collapse" id="header_currentLanguage" value="en">
+                <a href="#" data-bs-target="#navbar-language" data-bs-toggle="collapse" name="header_currentLanguage" value="en">
                   EN
                 </a>
                 <div class="collapse header__language-collapse" id="navbar-language">
-                     <div class="header__language-collapse-item" id="header_language2" value="ru">
+                     <div class="header__language-collapse-item" name="header_language2" value="ru">
                       <a href="#">RU</a>
                      </div>
-                     <div class="header__language-collapse-item" id="header_language3" value="ua">
+                     <div class="header__language-collapse-item" name="header_language3" value="ua">
                       <a href="#">UA</a>
                      </div>
                   </div>
@@ -1143,8 +1156,8 @@
   <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
   <script src="./js/bootstrap@5.2.3.min.js"></script>
   <script src="./js/libs.min.js"></script>
-  <script src="./js/script.js"></script>
-  <script src="./js/language.js"></script>
+  <script src="./js/script.min.js"></script>
+  <script src="./js/language.min.js"></script>
 
 </body>
 

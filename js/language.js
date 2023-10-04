@@ -502,16 +502,20 @@ if (!language) {
     localStorage.setItem("fjonit.language", language);
 }
 
-const currentLanguage = document.getElementById("header_currentLanguage");
-const language2 = document.getElementById("header_language2");
-const language3 = document.getElementById("header_language3");
+const currentLanguage = document.getElementsByName("header_currentLanguage");
+const language2 = document.getElementsByName("header_language2");
+const language3 = document.getElementsByName("header_language3");
 
 if (language === 'en') updateContet(dataEN);
 if (language === 'ru') updateContet(dataRU);
 if (language === 'ua') updateContet(dataUA);
 
-language2.addEventListener('click', function() {changeLanguage(language2.getAttribute("value"))});
-language3.addEventListener('click', function() {changeLanguage(language3.getAttribute("value"))});
+language2.forEach(e => { 
+    e.addEventListener('click', function() {changeLanguage(e.getAttribute("value"))})
+});
+language3.forEach(e => {
+    e.addEventListener('click', function() {changeLanguage(e.getAttribute("value"))})
+});
 
 function changeLanguage(lang) {
     localStorage.setItem('fjonit.language', lang);
@@ -522,16 +526,22 @@ function changeLanguage(lang) {
 function updateContet(data) {
     let innerLanguages = [...languages];
     
-    currentLanguage.textContent = language.toUpperCase();
-    currentLanguage.setAttribute("value", language);
+    currentLanguage.forEach(e => {
+        e.textContent = language.toUpperCase();
+        e.setAttribute("value", language);
+    });
     innerLanguages.splice(innerLanguages.indexOf(language), 1);
 
-    language2.textContent = innerLanguages[0].toUpperCase();
-    language2.setAttribute("value", innerLanguages[0]);
+    language2.forEach(e => {
+        e.textContent = innerLanguages[0].toUpperCase();
+        e.setAttribute("value", innerLanguages[0]);
+    });
     innerLanguages.splice(0, 1);
 
-    language3.textContent = innerLanguages[0].toUpperCase();
-    language3.setAttribute("value", innerLanguages[0]);
+    language3.forEach(e => {
+        e.textContent = innerLanguages[0].toUpperCase();
+        e.setAttribute("value", innerLanguages[0]);
+    });
     innerLanguages.splice(0, 1);
 
     document.querySelectorAll('[data-i18n]').forEach(element => {

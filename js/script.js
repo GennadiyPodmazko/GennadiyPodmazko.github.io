@@ -15,7 +15,7 @@ window.addEventListener('load', () => {
   // remove loading class which prevents the site from being shown
   document.querySelector('body').classList.remove('loading');
 
-  document.querySelectorAll('a[href^="#"]:not(.popup-link):not(#header_currentLanguage)').forEach(link => {
+  document.querySelectorAll('a[href^="#"]:not(.popup-link):not([name="header_currentLanguage"])').forEach(link => {
 
     link.addEventListener('click', function(e) {
         e.preventDefault();
