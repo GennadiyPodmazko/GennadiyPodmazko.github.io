@@ -110,9 +110,9 @@ dataEN.set("q&a_popup_question3", "What is the cost and period of study?");
 dataUA.set("q&a_popup_question3", "Яка вартість і термін навчання?");
 dataRU.set("q&a_popup_question3", "Какова стоимость и срок обучения?");
 
-dataEN.set("q&a_popup_answer3", "PM - 20 sessions with an exit interview, 800$, up to 10 students<br>QA - 20 sessions with an exit interview, 800$, up to 10 students<br>React for Seasoned Developers - 20 sessions, $1000, up to 10 students");
-dataUA.set("q&a_popup_answer3", "PM - 20 занять із попередньою співбесідою, 800$, до 10 студентів<br>QA - 20 занять із попередньою співбесідою, 800$, до 10 студентів<br>React для досвідчених розробників - 20 занять, 1000$, до 10 студентів");
-dataRU.set("q&a_popup_answer3", "PM - 20 занятий с предварительным собеседованием, 800$, до 10 студентов<br>QA - 20 занятий с предварительным собеседованием, 800$, до 10 студентов<br>React для опытных разработчиков - 20 занятий, 1000$, до 10 студентов");
+dataEN.set("q&a_popup_answer3", "PM - 20 sessions with an exit interview, 800$, up to 10 students; QA - 20 sessions with an exit interview, 800$, up to 10 students; React for Seasoned Developers - 20 sessions, $1000, up to 10 students");
+dataUA.set("q&a_popup_answer3", "PM - 20 занять із попередньою співбесідою, 800$, до 10 студентів; QA - 20 занять із попередньою співбесідою, 800$, до 10 студентів; React для досвідчених розробників - 20 занять, 1000$, до 10 студентів");
+dataRU.set("q&a_popup_answer3", "PM - 20 занятий с предварительным собеседованием, 800$, до 10 студентов; QA - 20 занятий с предварительным собеседованием, 800$, до 10 студентов; React для опытных разработчиков - 20 занятий, 1000$, до 10 студентов");
 
 dataEN.set("q&a_popup_question4", "Where does the training take place?");
 dataUA.set("q&a_popup_question4", "Де проходить навчання? ");
