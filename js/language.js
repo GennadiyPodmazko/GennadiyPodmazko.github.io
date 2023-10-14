@@ -470,6 +470,47 @@ dataEN.set("trainer_daria_popup_point7", "Public speaking experience.");
 dataUA.set("trainer_daria_popup_point7", "Досвід публічних виступів.");
 dataRU.set("trainer_daria_popup_point7", "Опыт публичных выступлений.");
 
+dataEN.set("trainer_touraj_quote1", "Hi! I'm");
+dataUA.set("trainer_touraj_quote1", "Привіт! Я");
+dataRU.set("trainer_touraj_quote1", "Привет! Я");
+
+dataEN.set("trainer_touraj_quote_title", "Touraj");
+dataUA.set("trainer_touraj_quote_title", "Турадж");
+dataRU.set("trainer_touraj_quote_title", "Турадж");
+
+dataEN.set("trainer_touraj_quote2", "I teach project management at OnIT");
+dataUA.set("trainer_touraj_quote2", "Я навчаю управлінню проектами в OnIT");
+dataRU.set("trainer_touraj_quote2", "Я обучаю управлению проектами в OnIT");
+
+dataEN.set("trainer_touraj_popup_name", "Touraj Acbari (PM)");
+dataUA.set("trainer_touraj_popup_name", "Турадж Акбарі (PM)");
+dataRU.set("trainer_touraj_popup_name", "Турадж Акбари (PM)");
+
+dataEN.set("trainer_touraj_popup_title", "Project Manager/Program Manager");
+dataUA.set("trainer_touraj_popup_title", "Project Manager/Program Manager");
+dataRU.set("trainer_touraj_popup_title", "Project Manager/Program Manager");
+
+dataEN.set("trainer_touraj_popup_point1", "Experienced Project Manager with over 11 years of expertise in leading and delivering successful projects.");
+dataUA.set("trainer_touraj_popup_point1", "Досвідчений менеджер проектів з більш ніж 11-річним досвідом керівництва та реалізації успішних проектів.");
+dataRU.set("trainer_touraj_popup_point1", "Опытный менеджер проектов с более чем 11-летним опытом руководства и реализации успешных проектов.");
+
+dataEN.set("trainer_touraj_popup_point2", "Experience from renowned companies like CHI Software, Trinetix, DB Best Technologies, and MWDN Ltd.");
+dataUA.set("trainer_touraj_popup_point2", "Досвід таких відомих компаній, як CHI Software, Trinetix, DB Best Technologies і MWDN Ltd.");
+dataRU.set("trainer_touraj_popup_point2", "Опыт таких известных компаний, как CHI Software, Trinetix, DB Best Technologies и MWDN Ltd.");
+
+dataEN.set("trainer_touraj_popup_point3", "Adept at managing projects across the globe, particularly in the USA.");
+dataUA.set("trainer_touraj_popup_point3", "Має досвід управління проектами по всьому світу, зокрема в США.");
+dataRU.set("trainer_touraj_popup_point3", "Имеет опыт управления проектами по всему миру, особенно в США.");
+
+dataEN.set("trainer_touraj_popup_point4", "Holds certifications as a Project Management Professional (PMP), PMI Certification, and Scrum Master Certification.");
+dataUA.set("trainer_touraj_popup_point4", "Має сертифікати спеціаліста з Project Management Professional (PMP), PMI Certification, та Scrum Master Certification.");
+dataRU.set("trainer_touraj_popup_point4", "Имеет сертификаты специалиста по Project Management Professional (PMP), PMI Certification, и Scrum Master Certification.");
+
+dataEN.set("trainer_touraj_popup_point5", "Proficient in coaching, mentoring, and overseeing project managers.");
+dataUA.set("trainer_touraj_popup_point5", "Досвідчений в викладанні, наставництві, та керуванні менеджерами проектів.");
+dataRU.set("trainer_touraj_popup_point5", "Имеет опыт в обучении, наставничестве и управлении менеджерами проектов.");
+
+
 dataEN.set("register_course_title", "Reach your goals with us!");
 dataUA.set("register_course_title", "Досягайте своїх цілей разом з нами!");
 dataRU.set("register_course_title", "Достигайте своих целей вместе с нами!");
