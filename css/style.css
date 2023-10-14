@@ -1355,14 +1355,14 @@ img.logo:hover {
 @media (max-width: 1330px) {
   .contacts-item__text {
     max-width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 670px) {
   .contacts-item__text {
     font-size: 14px;
     line-height: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
   }
 }
 .contacts-item__bottom {
@@ -1386,6 +1386,7 @@ img.logo:hover {
 }
 @media (max-width: 1270px) {
   .contacts-item__social {
+    display: block;
     width: 100%;
   }
   .contacts-item__social div {
@@ -1402,9 +1403,6 @@ img.logo:hover {
   display: flex;
   justify-content: end;
 }
-.contacts-item__links i {
-  font-size: 24px;
-}
 .contacts-item__links a {
   font-weight: 700;
   font-size: 30px;
@@ -1414,11 +1412,27 @@ img.logo:hover {
   text-align: right;
   text-decoration: none;
   margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.contacts-item__links__email-phone {
+  display: block !important;
+}
+.contacts-item__links__email-phone i {
+  font-size: 24px;
+}
+@media (max-width: 1330px) {
+  .contacts-item__links a {
+    font-size: 28px;
+    line-height: 32px;
+  }
 }
 @media (max-width: 1270px) {
   .contacts-item__links {
     width: 100%;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-between;
     order: -1;
@@ -1427,6 +1441,9 @@ img.logo:hover {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+  .contacts-item__links__email-phone {
+    display: flex !important;
   }
   .contacts-item__links a {
     font-size: 24px !important;
@@ -1440,36 +1457,16 @@ img.logo:hover {
   .contacts-item__links div {
     justify-content: end;
   }
+  .contacts-item__links__email-phone {
+    display: block !important;
+  }
   .contacts-item__links a {
     font-size: 22px !important;
-  }
-}
-@media (max-width: 1330px) {
-  .contacts-item__links a {
-    font-size: 28px;
-    line-height: 32px;
-  }
-}
-@media (max-width: 670px) {
-  .contacts-item__links a {
-    font-size: 24px;
     line-height: 32px;
     text-align: left;
   }
 }
-.contacts-item__links a:last-child {
-  margin-top: 24px;
-}
-@media (max-width: 1330px) {
-  .contacts-item__links a:last-child {
-    margin-top: 0;
-  }
-}
-@media (max-width: 670px) {
-  .contacts-item__links a:last-child {
-    margin-top: 8px;
-  }
-}
+
 
 .our-team {
   background: #BAC4E6;
