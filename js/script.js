@@ -145,38 +145,6 @@ window.addEventListener('load', () => {
 
   }
 
-
-
-  // fist section video
-
-  const homeVideoPlayButtons = document.querySelectorAll('.home-video-play');
-
-  homeVideoPlayButtons.forEach((item) => {
-    item.addEventListener('click', (e) => {
-      e.preventDefault();
-      let homeVideoParrent = item.closest('.home-video');
-      const video = homeVideoParrent.querySelector('video');
-      homeVideoParrent.classList.toggle('home-video_play');
-      if (video.paused) {
-        video.play();
-      } else {
-        video.pause();
-      }
-      video.addEventListener('ended', () => {
-        homeVideoParrent.classList.remove('home-video_play');
-      });
-      video.addEventListener('pause', () => {
-        homeVideoParrent.classList.remove('home-video_play');
-      });
-      document.addEventListener('scroll', () => {
-        if(video.getBoundingClientRect().y < -100){
-            video.pause();
-        }
-      });
-    });
-  });
-
-
   // header popup team
 
   const teamItems = document.querySelectorAll('.header__team-item');

@@ -2528,39 +2528,6 @@ img.logo:hover {
   position: relative;
   z-index: 2;
 }
-.home-video .grid-item__link {
-  width: 84px;
-  height: 84px;
-}
-.home-video .grid-item__link svg {
-  margin-left: 3px;
-  position: absolute;
-  transition: opacity 0.3s;
-}
-.home-video .grid-item__link .play {
-  opacity: 1;
-  animation: 3s playBounce infinite;
-}
-.home-video .grid-item__link .pause {
-  opacity: 0;
-}
-.home-video_play .home-video__image {
-  opacity: 0;
-  pointer-events: none;
-}
-.home-video_play .home-video__title, .home-video_play .home-video__subtitle {
-  opacity: 0;
-  pointer-events: none;
-}
-.home-video_play .grid-item__link .play {
-  opacity: 0;
-}
-.home-video_play .grid-item__link .pause {
-  opacity: 1;
-}
-.home-video_play video {
-  opacity: 1;
-}
 
 .bg1 {
   width: 212px;
