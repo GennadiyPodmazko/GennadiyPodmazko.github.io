@@ -63,8 +63,8 @@ dataUA.set("ourAdvantages_popup_quote1", "“Основний меседж на�
 dataRU.set("ourAdvantages_popup_quote1", "“Главная идея нашего начинания заключается в том, что мы оцениваем успех нашего дела не по тому, сколько денег оно нам принесет, а по тому, сколько успешных выпускников будут вспоминать нас с благодарностью, добившись успеха.”");
 
 dataEN.set("ourAdvantages_popup_quote2.1", "Hi! I’m Michael Glazer");
-dataUA.set("ourAdvantages_popup_quote2.1", "Привіт! Я Майкл Глейзер");
-dataRU.set("ourAdvantages_popup_quote2.1", "Привет! Я Майкл Глейзер");
+dataUA.set("ourAdvantages_popup_quote2.1", "Привіт! Я Майкл Глазер");
+dataRU.set("ourAdvantages_popup_quote2.1", "Привет! Я Майкл Глазер");
 
 dataEN.set("ourAdvantages_popup_quote2.2", "I'm the");
 dataUA.set("ourAdvantages_popup_quote2.2", "Я");
@@ -355,8 +355,8 @@ dataUA.set("copyright_address", "Адреса:");
 dataRU.set("copyright_address", "Адрес:");
 
 dataEN.set("michael_glazer_name", "Michael Glazer");
-dataUA.set("michael_glazer_name", "Майкл Глейзер");
-dataRU.set("michael_glazer_name", "Майкл Глейзер");
+dataUA.set("michael_glazer_name", "Майкл Глазер");
+dataRU.set("michael_glazer_name", "Майкл Глазер");
 
 dataEN.set("aleksandra_pylypenko_name", "Aleksandra Pylypenko");
 dataUA.set("aleksandra_pylypenko_name", "Олександра Пилипенко");
