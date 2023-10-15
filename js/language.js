@@ -527,6 +527,14 @@ dataEN.set("register_course_footer1", "By submitting this form, I accept the");
 dataUA.set("register_course_footer1", "Відправляючи цю форму, я приймаю");
 dataRU.set("register_course_footer1", "Отправляя эту форму, я принимаю");
 
+dataEN.set("register_course_footer_privacy_policy", "Privacy Policy");
+dataUA.set("register_course_footer_privacy_policy", "Політика Конфіденційності");
+dataRU.set("register_course_footer_privacy_policy", "Политика Конфиденциальности");
+
+dataEN.set("register_course_footer_term_of_use", "Terms of Use");
+dataUA.set("register_course_footer_term_of_use", "Умови використання");
+dataRU.set("register_course_footer_term_of_use", "Условия использования");
+
 dataEN.set("register_course_footer2", "and the");
 dataUA.set("register_course_footer2", "та");
 dataRU.set("register_course_footer2", "и");
