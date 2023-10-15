@@ -46,9 +46,9 @@ dataEN.set("ourAdvantages_books_title", "Our Books");
 dataUA.set("ourAdvantages_books_title", "Наші книги");
 dataRU.set("ourAdvantages_books_title", "Наши книги");
 
-dataEN.set("ourAdvantages_popup_text1", "The founders of OnIT have over 27 years of successful track record in the FinTech industry in the USA and Europe, with such companies as ICE (IntercontinentalExchange), FXAll, GFT and others, and central investment banks such as Morgan Stanley, JP Morgan, and others.");
-dataUA.set("ourAdvantages_popup_text1", "Засновники OnIT мають понад 27 років успішного досвіду роботи в галузі FinTech в США та Європі, з такими компаніями як ICE (IntercontinentalExchange), FXAll, GFT та іншими, а також центральними інвестиційними банками, такими як Morgan Stanley, JP Morgan та іншими.");
-dataRU.set("ourAdvantages_popup_text1", "Основатели OnIT имеют более чем 27-летний опыт успешной работы в индустрии FinTech в США и Европе с такими компаниями, как ICE (IntercontinentalExchange), FXAll, GFT и другими, а также с центральными инвестиционными банками, такими как Morgan Stanley, JP Morgan и другими.");
+dataEN.set("ourAdvantages_popup_text1", "The founders of SHAR have over 27 years of successful track record in the FinTech industry in the USA and Europe, with such companies as ICE (IntercontinentalExchange), FXAll, GFT and others, and central investment banks such as Morgan Stanley, JP Morgan, and others.");
+dataUA.set("ourAdvantages_popup_text1", "Засновники SHAR мають понад 27 років успішного досвіду роботи в галузі FinTech в США та Європі, з такими компаніями як ICE (IntercontinentalExchange), FXAll, GFT та іншими, а також центральними інвестиційними банками, такими як Morgan Stanley, JP Morgan та іншими.");
+dataRU.set("ourAdvantages_popup_text1", "Основатели SHAR имеют более чем 27-летний опыт успешной работы в индустрии FinTech в США и Европе с такими компаниями, как ICE (IntercontinentalExchange), FXAll, GFT и другими, а также с центральными инвестиционными банками, такими как Morgan Stanley, JP Morgan и другими.");
 
 dataEN.set("ourAdvantages_popup_text2", "The mother company - ForkJoin, is the leading IT Service Provider for aggressive and disruptive FinTechs such as Meetperry, ENSO Financial, UNTL, and others.");
 dataUA.set("ourAdvantages_popup_text2", "Материнська компанія - ForkJoin - є провідним постачальником ІТ-послуг для амбытних та прогресивних FinTech-компаній, таких як Meetperry, ENSO Financial, UNTL та інших.");
@@ -430,9 +430,9 @@ dataEN.set("trainer_daria_quote_title", "Daria");
 dataUA.set("trainer_daria_quote_title", "Дарія");
 dataRU.set("trainer_daria_quote_title", "Дария");
 
-dataEN.set("trainer_daria_quote2", "I teach project management at OnIT");
-dataUA.set("trainer_daria_quote2", "Я навчаю управлінню проектами в OnIT");
-dataRU.set("trainer_daria_quote2", "Я обучаю управлению проектами в OnIT");
+dataEN.set("trainer_daria_quote2", "I teach project management at SHAR");
+dataUA.set("trainer_daria_quote2", "Я навчаю управлінню проектами в SHAR");
+dataRU.set("trainer_daria_quote2", "Я обучаю управлению проектами в SHAR");
 
 dataEN.set("trainer_daria_popup_name", "Dariia Kukurik (PM)");
 dataUA.set("trainer_daria_popup_name", "Дарія Кукурик (PM)");
@@ -478,9 +478,9 @@ dataEN.set("trainer_touraj_quote_title", "Touraj");
 dataUA.set("trainer_touraj_quote_title", "Турадж");
 dataRU.set("trainer_touraj_quote_title", "Турадж");
 
-dataEN.set("trainer_touraj_quote2", "I teach project management at OnIT");
-dataUA.set("trainer_touraj_quote2", "Я навчаю управлінню проектами в OnIT");
-dataRU.set("trainer_touraj_quote2", "Я обучаю управлению проектами в OnIT");
+dataEN.set("trainer_touraj_quote2", "I teach project management at SHAR");
+dataUA.set("trainer_touraj_quote2", "Я навчаю управлінню проектами в SHAR");
+dataRU.set("trainer_touraj_quote2", "Я обучаю управлению проектами в SHAR");
 
 dataEN.set("trainer_touraj_popup_name", "Touraj Acbari (PM)");
 dataUA.set("trainer_touraj_popup_name", "Турадж Акбарі (PM)");

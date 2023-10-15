@@ -732,10 +732,7 @@ img.logo:hover {
 }
 .header__language-collapse-item {
   padding: 16px 24px;
-
-  &:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
 }
 
 .grid {
