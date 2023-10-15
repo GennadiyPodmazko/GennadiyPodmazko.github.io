@@ -1,7 +1,6 @@
 <svg width="1008" height="1008" viewBox="0 0 1008 1008" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_306_52)">
-<circle cx="504" cy="500" r="500" fill="url(#paint0_radial_306_52)" shape-rendering="crispEdges"/>
-<circle cx="504" cy="500" r="499.5" stroke="black" shape-rendering="crispEdges"/>
+<circle cx="504" cy="500" r="500" fill="url(#paint0_radial_306_52)"/>
 </g>
 <g filter="url(#filter1_d_306_52)">
 <ellipse cx="504.5" cy="500.5" rx="394.5" ry="384.5" fill="black"/>
@@ -30,11 +29,12 @@
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_306_52" result="shape"/>
 </filter>
 <radialGradient id="paint0_radial_306_52" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(504 500) rotate(90) scale(500 489.501)">
-<stop offset="0.944011" stop-color="#0F1014"/>
-<stop offset="0.954306" stop-color="#936AED"/>
-<stop offset="0.96634" stop-color="#BB8CF4"/>
-<stop offset="0.970132" stop-color="#936AED" stop-opacity="0.85"/>
-<stop offset="1" stop-color="#3237BF"/>
+<stop offset="0.870403" stop-color="#0F1014"/>
+<stop offset="0.912079" stop-color="#0E35D8"/>
+<stop offset="0.931824" stop-color="#936AED"/>
+<stop offset="0.944626" stop-color="#BB8CF4"/>
+<stop offset="0.953956" stop-color="#936AED"/>
+<stop offset="0.994748" stop-color="#3237BF"/>
 </radialGradient>
 </defs>
 </svg>
