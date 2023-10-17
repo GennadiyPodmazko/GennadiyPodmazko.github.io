@@ -326,13 +326,13 @@ dataEN.set("upcomingCourses_training", "training");
 dataUA.set("upcomingCourses_training", "курс");
 dataRU.set("upcomingCourses_training", "курс");
 
-dataEN.set("upcomingCourses_data", "October 01");
-dataUA.set("upcomingCourses_data", "Жовтень 01");
-dataRU.set("upcomingCourses_data", "Октябрь 01");
+dataEN.set("upcomingCourses_data", "");
+dataUA.set("upcomingCourses_data", "");
+dataRU.set("upcomingCourses_data", "");
 
-dataEN.set("upcomingCourses_sessions", "20 sessions");
-dataUA.set("upcomingCourses_sessions", "20 занятть");
-dataRU.set("upcomingCourses_sessions", "20 занятий");
+dataEN.set("upcomingCourses_sessions", "");
+dataUA.set("upcomingCourses_sessions", "");
+dataRU.set("upcomingCourses_sessions", "");
 
 dataEN.set("details", "DETAILS");
 dataUA.set("details", "ДЕТАЛІ");

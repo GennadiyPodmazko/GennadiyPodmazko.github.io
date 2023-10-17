@@ -343,3 +343,10 @@ function cancelValidationBorder() {
    item.classList.remove("invalid");
  }
 }
+
+document.getElementById("phone").onkeydown = function(event) {
+  // Only allow if the e.key value is a number or if it's 'Backspace'
+  if(isNaN(event.key) && event.key !== 'Backspace') {
+    event.preventDefault();
+  }
+};
