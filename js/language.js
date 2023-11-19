@@ -19,10 +19,10 @@ dataUA.set("header_registerForCourse", "Безкоштовна консульт�
 dataRU.set("header_registerForCourse", "Бесплатная консультация");
 
 dataEN.set("ourGoal_title", "Our goal");
-dataUA.set("ourGoal_title", "Наша мета");
+dataUA.set("ourGoal_title", "Наша мeта");
 dataRU.set("ourGoal_title", "Наша цель");
 
-dataEN.set("ourGoal_text", "Write your own ticket! Define the terms of the journey to your dreams. The ultimate GOAL is to empower every student write own ticket to carrier success");
+dataEN.set("ourGoal_text", "Write your own ticket! Define the terms of the journey to your dreams. The ultimate GOAL is to empower every student write their own ticket to career success");
 dataUA.set("ourGoal_text", "Write your own ticket! Самостійно визначай умови подорожі до своєї мрії.  Наша кінцева мета - дати можливість кожному студенту виписати свій власний квиток до успішного кар'єрного зростання");
 dataRU.set("ourGoal_text", "Write your own ticket! Сам определяй условия путешествия к своей мечте. Наша главная цель - дать возможность каждому студенту выписать свой билет до любых карьерных высот");
 
@@ -46,16 +46,16 @@ dataEN.set("ourAdvantages_books_title", "Our Books");
 dataUA.set("ourAdvantages_books_title", "Наші книги");
 dataRU.set("ourAdvantages_books_title", "Наши книги");
 
-dataEN.set("ourAdvantages_popup_text1", "The founders of SHAR have over 27 years of successful track record in the FinTech industry in the USA and Europe, with such companies as ICE (IntercontinentalExchange), FXAll, GFT and others, and central investment banks such as Morgan Stanley, JP Morgan, and others.");
-dataUA.set("ourAdvantages_popup_text1", "Засновники SHAR мають понад 27 років успішного досвіду роботи в галузі FinTech в США та Європі, з такими компаніями як ICE (IntercontinentalExchange), FXAll, GFT та іншими, а також центральними інвестиційними банками, такими як Morgan Stanley, JP Morgan та іншими.");
+dataEN.set("ourAdvantages_popup_text1", "The founders of a SHAR have over 27 years of successful track record in the FinTech industry in the USA and Europe, with such companies as ICE (IntercontinentalExchange), FXAll, GFT and others, and central investment banks such as Morgan Stanley, JP Morgan, and others.");
+dataUA.set("ourAdvantages_popup_text1", "Засновники SHAR мають понад 27 років успішного досвіду роботи в галузі FinTech в США та Європі, з такими компаніями, як ICE (IntercontinentalExchange), FXAll, GFT та іншими, а також центральними інвестиційними банками, такими як Morgan Stanley, JP Morgan та іншими.");
 dataRU.set("ourAdvantages_popup_text1", "Основатели SHAR имеют более чем 27-летний опыт успешной работы в индустрии FinTech в США и Европе с такими компаниями, как ICE (IntercontinentalExchange), FXAll, GFT и другими, а также с центральными инвестиционными банками, такими как Morgan Stanley, JP Morgan и другими.");
 
 dataEN.set("ourAdvantages_popup_text2", "The mother company - ForkJoin, is the leading IT Service Provider for aggressive and disruptive FinTechs such as Meetperry, ENSO Financial, UNTL, and others.");
-dataUA.set("ourAdvantages_popup_text2", "Материнська компанія - ForkJoin - є провідним постачальником ІТ-послуг для амбытних та прогресивних FinTech-компаній, таких як Meetperry, ENSO Financial, UNTL та інших.");
-dataRU.set("ourAdvantages_popup_text2", "Материнская компания - ForkJoin - является ведущим поставщиком ИТ-услуг для амбициозных и прогрессивных FinTech-компаний, таких как Meetperry, ENSO Financial, UNTL и др.");
+dataUA.set("ourAdvantages_popup_text2", "Материнська компанія - ForkJoin - є провідним постачальником ІТ-послуг для амбiтних та прогресивних FinTech-компаній, таких як Meetperry, ENSO Financial, UNTL та інших.");
+dataRU.set("ourAdvantages_popup_text2", "Материнская компания - ForkJoin - является ведущим поставщиком IT-услуг для амбициозных и прогрессивных FinTech-компаний, таких как Meetperry, ENSO Financial, UNTL и др.");
 
 dataEN.set("ourAdvantages_popup_text3", "We are very hands-on and write and publish bestselling books in the Manning Publication (USA), which are read and followed by a vast community of engineers worldwide. We follow the paradigm - Don’t do as I say, Do as I do!");
-dataUA.set("ourAdvantages_popup_text3", "Ми дуже практично спрямовані, пишемо та публікуємо бестселери у видавництві Manning Publishing (США), які читає та наслідує величезна спільнота інженерів по всьому світу. Ми дотримуємося парадигми - не роби так , як я кажу, роби так, як я роблю!");
+dataUA.set("ourAdvantages_popup_text3", "Ми дуже практично спрямовані, пишемо та публікуємо бестселери у видавництві Manning Publishing (США), які читає та наслідує величезна спільнота інженерів по всьому світу. Ми дотримуємося парадигми - не роби так, як я кажу, роби так, як я роблю!");
 dataRU.set("ourAdvantages_popup_text3", "Мы очень практично ориентированы, пишем и публикуем книги-бестселлеры в издании Manning (США), которые читает и слушает огромное сообщество инженеров по всему миру. Мы придерживаемся парадигмы - не делай, как я говорю, а делай, как я делаю!");
 
 dataEN.set("ourAdvantages_popup_quote1", "“The main message of our undertaking is that we evaluate the success of our business not by how much money it brought us, but by how many successful graduates will remember us with gratitude, having achieved success.”");
@@ -70,9 +70,9 @@ dataEN.set("ourAdvantages_popup_quote2.2", "I'm the");
 dataUA.set("ourAdvantages_popup_quote2.2", "Я");
 dataRU.set("ourAdvantages_popup_quote2.2", "Я");
 
-dataEN.set("ourAdvantages_popup_quote2.3", "founder and head Trainer");
-dataUA.set("ourAdvantages_popup_quote2.3", "засновник та головний Тренер");
-dataRU.set("ourAdvantages_popup_quote2.3", "основатель и главный Тренер");
+dataEN.set("ourAdvantages_popup_quote2.3", "founder and Head Trainer");
+dataUA.set("ourAdvantages_popup_quote2.3", "засновник та Головний Тренер");
+dataRU.set("ourAdvantages_popup_quote2.3", "основатель и Главный Тренер");
 
 dataEN.set("ourAdvantages_popup_quote2.4", "of the course");
 dataUA.set("ourAdvantages_popup_quote2.4", "курса");
@@ -92,7 +92,7 @@ dataRU.set("q&a_popup_title", "Общие вопросы");
 
 dataEN.set("q&a_popup_question1", "What is the peculiarity of the course program compared to other IT schools?");
 dataUA.set("q&a_popup_question1", "У чому особливість програми курсу порівняно з іншими ІТ-школами? ");
-dataRU.set("q&a_popup_question1", "В чем особенность программы курса по сравнению с другими ИТ-школами? ");
+dataRU.set("q&a_popup_question1", "В чем особенность программы курса по сравнению с другими IT-школами? ");
 
 dataEN.set("q&a_popup_answer1", "Our program is not just a dry presentation of theory; it is 80% practice in the playground. We teach our students on real projects. After completing the course, you can add this experience to your CV with references. Our goal is to engage our students in production-quality life cycle development");
 dataUA.set("q&a_popup_answer1", "Наша програма - це не просто сухий виклад теорії, це на 80% практика. Ми навчаємо наших студентів на реальних проєктах. Після закінчення курсу ви можете додати цей досвід до свого резюме із зазначенням рекомендацій. Наша мета - познайомити студентів з повним циклом розробки продукту найвищої якості.");
@@ -102,9 +102,9 @@ dataEN.set("q&a_popup_question2", "What criteria are used to select teachers for
 dataUA.set("q&a_popup_question2", "За якими критеріями відбираються викладачі для курсів? ");
 dataRU.set("q&a_popup_question2", "По каким критериям отбираются преподаватели для курсов? ");
 
-dataEN.set("q&a_popup_answer2", "Our trainers are very senior IT professionals with impressive experience of 15 to 25+ years in the USA's most successful world-known companies in the financial sector. In their teaching style, they emphasize practice. You can read more about our trainers on the website at");
+dataEN.set("q&a_popup_answer2", "Our trainers are very senior IT professionals with an impressive experience of 15 to 25+ years in the USA's most successful world-known companies in the financial sector.They emphasize a practical approach in their teaching style. You can read about our trainers on the website at");
 dataUA.set("q&a_popup_answer2", "Наші викладачі - професіонали високого рівня у сфері IT зі значним досвідом роботи від 15 до 25+ років у найуспішніших компаніях США зі світовим ім'ям у фінансовому секторі. У своєму методі викладання вони роблять акцент на практику. Детальніше про наших викладачів можна прочитати за посиланням");
-dataRU.set("q&a_popup_answer2", "Наши преподаватели - профессионалы высокого уровня в сфере IT с внушительным опытом работы от 15 до 25+ лет в самых успешных компаниях США с мировым именем в финансовом секторе. В своем методе преподавания они делают упор на практику. Подробнее о наших преподавателях можно прочитать на ссылке");
+dataRU.set("q&a_popup_answer2", "Наши преподаватели - профессионалы высокого уровня в сфере IT с внушительным опытом работы от 15 до 25+ лет в самых успешных компаниях США с мировым именем в финансовом секторе. В своем методе преподавания они делают упор на практику. Подробнее о наших преподавателях можно прочитать по ссылке");
 
 dataEN.set("q&a_popup_question3", "What is the cost and period of study?");
 dataUA.set("q&a_popup_question3", "Яка вартість і термін навчання?");
@@ -150,7 +150,7 @@ dataEN.set("q&a_popup_question8", "What is more emphasized in the classroom? Pra
 dataUA.set("q&a_popup_question8", "Чому приділяється більше уваги в навчальному процесі? Практиці чи теорії? ");
 dataRU.set("q&a_popup_question8", "Чему уделяется больше внимания в учебном процессе? Практике или теории? ");
 
-dataEN.set("q&a_popup_answer8", "The study will take place on an actual project according to the newest and most relevant program with homework checks and feedback from an experienced teacher. Your theory with actual practice (Hard skills). At the end of the course, you have a finished project that you can safely add to CV.");
+dataEN.set("q&a_popup_answer8", "The study will take place on an actual project according to the newest and most relevant program with homework checks and feedback from an experienced teacher. Your will combine theory with actual practice (hard skills). At the end of the course, you have a finished project that you can safely add to CV.");
 dataUA.set("q&a_popup_answer8", "Навчання відбуватиметься на реальному проєкті за найновішою та найактуальнішою програмою з перевіркою домашніх завдань і зворотним зв'язком від досвідченого викладача. Теорія з реальною практикою (Hard skills). Наприкінці курсу у вас є готовий проєкт, який ви можете сміливо додати до CV.");
 dataRU.set("q&a_popup_answer8", "Обучение будет проходить на реальном проекте по самой новой и актуальной программе с проверкой домашних заданий и обратной связью от опытного преподавателя. Теория с реальной практикой (Hard skills). В конце курса у вас есть готовый проект, который вы можете смело добавить в CV.");
 
@@ -182,9 +182,9 @@ dataEN.set("q&a_popup_question12", "Is there a payment plan for the course?");
 dataUA.set("q&a_popup_question12", "Як здійснюється оплата курсу? ");
 dataRU.set("q&a_popup_question12", "Как осуществляется оплата курса? ");
 
-dataEN.set("q&a_popup_answer12", "The first lesson is free for everyone. Subsequently, we ask for an advance payment for the course in the amount of 100% of the cost. You can return the full cost of the course within the first three lessons.");
-dataUA.set("q&a_popup_answer12", "Перше заняття безкоштовне для всіх охочих. Надалі ми просимо внести передоплату за курс у розмірі 100% його вартості. Ви можете повернути повну вартість курсу протягом перших трьох занять.");
-dataRU.set("q&a_popup_answer12", "Первое занятие бесплатно для всех желающих. В дальнейшем мы просим внести предоплату за курс в размере 100% его стоимости. Вы можете вернуть полную стоимость курса в течение первых трех занятий.");
+dataEN.set("q&a_popup_answer12", "The first lesson is free for everyone. Subsequently, we ask for an advance payment for the course in the amount of 100% of the cost. You can return the full cost of the course within the first two lessons.");
+dataUA.set("q&a_popup_answer12", "Перше заняття безкоштовне для всіх охочих. Надалі ми просимо внести передоплату за курс у розмірі 100% його вартості. Ви можете повернути повну вартість курсу протягом перших двох занять.");
+dataRU.set("q&a_popup_answer12", "Первое занятие бесплатно для всех желающих. В дальнейшем мы просим внести предоплату за курс в размере 100% его стоимости. Вы можете вернуть полную стоимость курса в течение первых двух занятий.");
 
 dataEN.set("q&a_popup_question13", "Will I get a certificate and recommendations?");
 dataUA.set("q&a_popup_question13", "Чи отримаю я сертифікат і рекомендації? ");
@@ -198,15 +198,15 @@ dataEN.set("q&a_popup_question14", "Can I get a refund if the course doesn't sui
 dataUA.set("q&a_popup_question14", "Чи можу я отримати відшкодування, якщо курс мені не підійде? ");
 dataRU.set("q&a_popup_question14", "Могу ли я получить возмещение, если курс мне не подойдет? ");
 
-dataEN.set("q&a_popup_answer14", "We promise to make every effort to make our course a truly rewarding and interesting experience for you. But if for some reason during the first three lessons you find our course not suitable for you, we will refund you 100% of the advanced course fee within fourteen days. After the fourth lesson, the cost of the course is not refundable.");
-dataUA.set("q&a_popup_answer14", "Ми обіцяємо докласти всіх зусиль, щоб наш курс став для вас по-справжньому корисним і цікавим. Але якщо з якихось причин протягом перших трьох занять ви вважаєте, що наш курс вам не підходить, ми повернемо вам 100% вартості просунутого курсу протягом чотирнадцяти днів. Після четвертого заняття вартість курсу поверненню не підлягає.");
-dataRU.set("q&a_popup_answer14", "Мы обещаем приложить все усилия, чтобы наш курс стал для вас по-настоящему полезным и интересным. Но если по каким-то причинам в течение первых трех занятий вы сочтете, что наш курс вам не подходит, мы вернем вам 100% стоимости продвинутого курса в течение четырнадцати дней. После четвертого занятия стоимость курса возврату не подлежит.");
+dataEN.set("q&a_popup_answer14", "We promise to make every effort to make our course a truly rewarding and interesting experience for you. But if for some reason during the first two lessons you find our course not suitable for you, we will refund you 100% of the advanced course fee within fourteen days. After the third lesson, the cost of the course is not refundable.");
+dataUA.set("q&a_popup_answer14", "Ми обіцяємо докласти всіх зусиль, щоб наш курс став для вас по-справжньому корисним і цікавим. Але якщо з якихось причин протягом перших двох занять ви вважаєте, що наш курс вам не підходить, ми повернемо вам 100% вартості курсу протягом чотирнадцяти днів. Після третього заняття вартість курсу поверненню не підлягає.");
+dataRU.set("q&a_popup_answer14", "Мы обещаем приложить все усилия, чтобы наш курс стал для вас по-настоящему полезным и интересным. Но если по каким-то причинам в течение двух занятий вы сочтете, что наш курс вам не подходит, мы вернем вам 100% стоимости курса в течение четырнадцати дней. После третьего занятия стоимость курса возврату не подлежит.");
 
 dataEN.set("q&a_popup_question15", "Is there a trial lesson?");
 dataUA.set("q&a_popup_question15", "Чи передбачено пробний урок? ");
 dataRU.set("q&a_popup_question15", "Предусмотрен ли пробный урок? ");
 
-dataEN.set("q&a_popup_answer15", "We provide a free trial lesson for every new student. <br<In the trial lesson, you can get to know our tutors and our training program, get information about the prospects of the path you have chosen and decide whether you want to move on with us to your new career in IT.");
+dataEN.set("q&a_popup_answer15", "We provide a free trial lesson for every new student.In the trial lesson, you can get to know our tutors and our training program, get information about the prospects of the path you have chosen and decide whether you want to move on with us to your new career in IT.");
 dataUA.set("q&a_popup_answer15", "Кожному новому студенту ми надаємо безкоштовний пробний урок. На пробному уроці ви можете познайомитися з нашими викладачами та програмою навчання, отримати інформацію про перспективи обраного вами шляху та вирішити, чи хочете ви рухатися далі разом із нами до своєї нової кар'єри у сфері IT.");
 dataRU.set("q&a_popup_answer15", "Каждому новому студенту мы предоставляем бесплатный пробный урок. На пробном уроке вы можете познакомиться с нашими преподавателями и программой обучения, получить информацию о перспективах выбранного вами пути и решить, хотите ли вы двигаться дальше вместе с нами к своей новой карьере в сфере IT.");
 
@@ -326,9 +326,9 @@ dataEN.set("upcomingCourses_training", "training");
 dataUA.set("upcomingCourses_training", "курс");
 dataRU.set("upcomingCourses_training", "курс");
 
-dataEN.set("upcomingCourses_data", "");
-dataUA.set("upcomingCourses_data", "");
-dataRU.set("upcomingCourses_data", "");
+dataEN.set("upcomingCourses_data", "20.11.2023");
+dataUA.set("upcomingCourses_data", "20.11.2023");
+dataRU.set("upcomingCourses_data", "20.11.2023");
 
 dataEN.set("upcomingCourses_sessions", "");
 dataUA.set("upcomingCourses_sessions", "");
@@ -344,7 +344,7 @@ dataRU.set("getInTouch_title", "На связи");
 
 dataEN.set("getInTouch_text", "We will be happy to answer all your questions and help you make the right choice on the way to your career dream");
 dataUA.set("getInTouch_text", "Ми будемо раді відповісти на всі ваші питання та допомогти вам зробити правильний вибір на шляху до кар'єри вашої мрії");
-dataRU.set("getInTouch_text", "Мы будем рады ответить на все ваши вопросы и помочь вам сделать правильный выбор на пути к карьере вышей мечты");
+dataRU.set("getInTouch_text", "Мы будем рады ответить на все ваши вопросы и помочь вам сделать правильный выбор на пути к карьере вашей мечты");
 
 dataEN.set("copyright_provided_by", "Provided by");
 dataUA.set("copyright_provided_by", "Забезбечено");
@@ -444,14 +444,14 @@ dataRU.set("trainer_daria_popup_title", "Project Manager/Delivery Manager в For
 
 dataEN.set("trainer_daria_popup_point1", "Over 10 years of experience in the IT industry (5 years as a QA engineer and 5.5 years as a PM), in particular: project, delivery, and program management;");
 dataUA.set("trainer_daria_popup_point1", "Понад 10 років досвіду роботи в ІТ-індустрії (5 років як QA-інженерка і 5,5 років як PM), зокрема: project, delivery, і program management;");
-dataRU.set("trainer_daria_popup_point1", "Более 10 лет опыта работы в ИТ-индустрии (5 лет в качестве QA-инженера и 5,5 лет в качестве PM), в частности: project, delivery, и program management;");
+dataRU.set("trainer_daria_popup_point1", "Более 10 лет опыта работы в IТ-индустрии (5 лет в качестве QA-инженера и 5,5 лет в качестве PM), в частности: project, delivery, и program management;");
 
-dataEN.set("trainer_daria_popup_point2", "experience in such companies as Ciklum, GlobalLogik;");
-dataUA.set("trainer_daria_popup_point2", "досвід роботи в таких компаніях, як Ciklum, GlobalLogik;");
-dataRU.set("trainer_daria_popup_point2", "опыт работы в таких компаниях, как Ciklum, GlobalLogik;");
+dataEN.set("trainer_daria_popup_point2", "Experience in such companies as Ciklum, GlobalLogik;");
+dataUA.set("trainer_daria_popup_point2", "Досвід роботи в таких компаніях, як Ciklum, GlobalLogik;");
+dataRU.set("trainer_daria_popup_point2", "Опыт работы в таких компаниях, как Ciklum, GlobalLogik;");
 
 dataEN.set("trainer_daria_popup_point3", "Extensive experience with projects around the world: USA, India and Europe;");
-dataUA.set("trainer_daria_popup_point3", "Великий досвід роботи з проєктами по всьому світу: США, Індія, Європа;");
+dataUA.set("trainer_daria_popup_point3", "Великий досвід роботи з проктами по всьому світу: США, Індія, Європа;");
 dataRU.set("trainer_daria_popup_point3", "Большой опыт работы с проектами по всему миру: США, Индия, Европа;");
 
 dataEN.set("trainer_daria_popup_point4", "Certified Project Management Professional (PMP) from PMI International;");
@@ -516,7 +516,7 @@ dataUA.set("register_course_title", "Досягайте своїх цілей р
 dataRU.set("register_course_title", "Достигайте своих целей вместе с нами!");
 
 dataEN.set("register_course_sub_title", "Contact our consultants who will be happy to answer all your questions, help you choose the right course and take the first step towards your career in IT.");
-dataUA.set("register_course_sub_title", "Зв'яжіться за нашими консультантами, які з радістю відповідять на всі ваші питання, допоможуть підібрати курс та зробити перший крок до кар'єри в IT");
+dataUA.set("register_course_sub_title", "Зв'яжітьс за нашими консультантами, які з радістю відповідять на всі ваші питання, допоможуть підібрати курс та зробити перший крок до кар'єри в IT");
 dataRU.set("register_course_sub_title", "Свяжитесь с нашими консультантами, которые с радостью ответят на все ваши вопросы, помогут выбрать подходящий курс и сделать первый шаг к карьере в IT.");
 
 dataEN.set("register_course_course", "Chose a course");
