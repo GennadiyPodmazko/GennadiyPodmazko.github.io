@@ -4,7 +4,7 @@ const dataRU = new Map();
 
 dataEN.set("header_aboutUs", "About us");
 dataUA.set("header_aboutUs", "Про нас");
-dataRU.set("header_aboutUs", "Про нас");
+dataRU.set("header_aboutUs", "О нас");
 
 dataEN.set("header_ourCourses", "Our Courses");
 dataUA.set("header_ourCourses", "Наші курси");
@@ -46,7 +46,7 @@ dataEN.set("ourAdvantages_books_title", "Our Books");
 dataUA.set("ourAdvantages_books_title", "Наші книги");
 dataRU.set("ourAdvantages_books_title", "Наши книги");
 
-dataEN.set("ourAdvantages_popup_text1", "The founders of a SHAR have over 27 years of successful track record in the FinTech industry in the USA and Europe, with such companies as ICE (IntercontinentalExchange), FXAll, GFT and others, and central investment banks such as Morgan Stanley, JP Morgan, and others.");
+dataEN.set("ourAdvantages_popup_text1", "The founders of a SHAR have over 27 years of a successful track record in the FinTech industry in the USA and Europe, with such companies as ICE (IntercontinentalExchange), FXAll, GFT and others, and central investment banks such as Morgan Stanley, JP Morgan, and others.");
 dataUA.set("ourAdvantages_popup_text1", "Засновники SHAR мають понад 27 років успішного досвіду роботи в галузі FinTech в США та Європі, з такими компаніями, як ICE (IntercontinentalExchange), FXAll, GFT та іншими, а також центральними інвестиційними банками, такими як Morgan Stanley, JP Morgan та іншими.");
 dataRU.set("ourAdvantages_popup_text1", "Основатели SHAR имеют более чем 27-летний опыт успешной работы в индустрии FinTech в США и Европе с такими компаниями, как ICE (IntercontinentalExchange), FXAll, GFT и другими, а также с центральными инвестиционными банками, такими как Morgan Stanley, JP Morgan и другими.");
 
@@ -94,7 +94,7 @@ dataEN.set("q&a_popup_question1", "What is the peculiarity of the course program
 dataUA.set("q&a_popup_question1", "У чому особливість програми курсу порівняно з іншими ІТ-школами? ");
 dataRU.set("q&a_popup_question1", "В чем особенность программы курса по сравнению с другими IT-школами? ");
 
-dataEN.set("q&a_popup_answer1", "Our program is not just a dry presentation of theory; it is 80% practice in the playground. We teach our students on real projects. After completing the course, you can add this experience to your CV with references. Our goal is to engage our students in production-quality life cycle development");
+dataEN.set("q&a_popup_answer1", "Our program is not just a dry presentation of theory; it consists of 80% practical experience in the field. We teach our students using real projects. After completing the course, you can add this valuable experience to your CV with references. Our goal is to involve our students in the development life cycle of production-quality projects.");
 dataUA.set("q&a_popup_answer1", "Наша програма - це не просто сухий виклад теорії, це на 80% практика. Ми навчаємо наших студентів на реальних проєктах. Після закінчення курсу ви можете додати цей досвід до свого резюме із зазначенням рекомендацій. Наша мета - познайомити студентів з повним циклом розробки продукту найвищої якості.");
 dataRU.set("q&a_popup_answer1", "Наша программа - это не просто сухое изложение теории, это на 80% практика. Мы обучаем наших студентов на реальных проектах. После окончания курса вы можете добавить этот опыт в свое резюме с указанием рекомендаций. Наша цель - познакомить студентов с полным циклом разработки продукта высочайшего качества.");
 
@@ -106,13 +106,13 @@ dataEN.set("q&a_popup_answer2", "Our trainers are very senior IT professionals w
 dataUA.set("q&a_popup_answer2", "Наші викладачі - професіонали високого рівня у сфері IT зі значним досвідом роботи від 15 до 25+ років у найуспішніших компаніях США зі світовим ім'ям у фінансовому секторі. У своєму методі викладання вони роблять акцент на практику. Детальніше про наших викладачів можна прочитати за посиланням");
 dataRU.set("q&a_popup_answer2", "Наши преподаватели - профессионалы высокого уровня в сфере IT с внушительным опытом работы от 15 до 25+ лет в самых успешных компаниях США с мировым именем в финансовом секторе. В своем методе преподавания они делают упор на практику. Подробнее о наших преподавателях можно прочитать по ссылке");
 
-dataEN.set("q&a_popup_question3", "What is the cost and period of study?");
-dataUA.set("q&a_popup_question3", "Яка вартість і термін навчання?");
-dataRU.set("q&a_popup_question3", "Какова стоимость и срок обучения?");
+dataEN.set("q&a_popup_question3", "What are the training standards?");
+dataUA.set("q&a_popup_question3", "Які стандарти навчання?");
+dataRU.set("q&a_popup_question3", "Каковы стандарты обучения?");
 
-dataEN.set("q&a_popup_answer3", "PM - 20 sessions with an exit interview, 800$, up to 10 students; QA - 20 sessions with an exit interview, 800$, up to 10 students; React for Seasoned Developers - 20 sessions, $1000, up to 10 students");
-dataUA.set("q&a_popup_answer3", "PM - 20 занять із попередньою співбесідою, 800$, до 10 студентів; QA - 20 занять із попередньою співбесідою, 800$, до 10 студентів; React для досвідчених розробників - 20 занять, 1000$, до 10 студентів");
-dataRU.set("q&a_popup_answer3", "PM - 20 занятий с предварительным собеседованием, 800$, до 10 студентов; QA - 20 занятий с предварительным собеседованием, 800$, до 10 студентов; React для опытных разработчиков - 20 занятий, 1000$, до 10 студентов");
+dataEN.set("q&a_popup_answer3", "SHAR educational courses are based on the American company ForkJoin and are oriented in their educational process to the standards of the Western market IT-industry. We offer advanced methodologies and share the most relevant practices of American specialists.");
+dataUA.set("q&a_popup_answer3", "Освітні курси SHAR створені на базі американської компанії ForkJoin і в своєму навчальному процесі орієнтуються на стандарти західного ринку IT-індустрії. Ми пропонуємо передові методології та ділимося найактуальнішим и практиками американських фахівців.");
+dataRU.set("q&a_popup_answer3", "Образовательные курсы SHAR созданы на базе американской компании ForkJoin и в своем учебном процессе ориентируются на стандарты западного рынка IT-индустрии. Мы предлагаем передовые методологии и делимся самыми актуальными практиками американских специалистов.");
 
 dataEN.set("q&a_popup_question4", "Where does the training take place?");
 dataUA.set("q&a_popup_question4", "Де проходить навчання? ");
@@ -182,9 +182,9 @@ dataEN.set("q&a_popup_question12", "Is there a payment plan for the course?");
 dataUA.set("q&a_popup_question12", "Як здійснюється оплата курсу? ");
 dataRU.set("q&a_popup_question12", "Как осуществляется оплата курса? ");
 
-dataEN.set("q&a_popup_answer12", "The first lesson is free for everyone. Subsequently, we ask for an advance payment for the course in the amount of 100% of the cost. You can return the full cost of the course within the first two lessons.");
-dataUA.set("q&a_popup_answer12", "Перше заняття безкоштовне для всіх охочих. Надалі ми просимо внести передоплату за курс у розмірі 100% його вартості. Ви можете повернути повну вартість курсу протягом перших двох занять.");
-dataRU.set("q&a_popup_answer12", "Первое занятие бесплатно для всех желающих. В дальнейшем мы просим внести предоплату за курс в размере 100% его стоимости. Вы можете вернуть полную стоимость курса в течение первых двух занятий.");
+dataEN.set("q&a_popup_answer12", "The first lesson is free for everyone. Subsequently, we ask for an advance payment for the semester in the amount of 100% of the cost. You can get a refund within the first two lessons.");
+dataUA.set("q&a_popup_answer12", "Перше заняття безкоштовне для всіх охочих. Надалі ми просимо внести передоплату за семестр у розмірі 100% його вартост.  Ви можете повернути сплачені кошти протягом перших двох занять.");
+dataRU.set("q&a_popup_answer12", "Первое занятие бесплатно для всех желающих. В дальнейшем мы просим внести предоплату за семестр в размере 100% его стоимости. Вы можете вернуть уплаченные средства в течение первых двух занятий.");
 
 dataEN.set("q&a_popup_question13", "Will I get a certificate and recommendations?");
 dataUA.set("q&a_popup_question13", "Чи отримаю я сертифікат і рекомендації? ");
@@ -302,7 +302,7 @@ dataEN.set("q&a_popup_question27", "Will I have any portfolio after graduation? 
 dataUA.set("q&a_popup_question27", "Чи буде в мене портфоліо після закінчення навчання? ");
 dataRU.set("q&a_popup_question27", "Будет ли у меня портфолио после окончания обучения? ");
 
-dataEN.set("q&a_popup_answer27", "The studying will take place on a real project according to the newest and most relevant program with homework checks and feedback from an experienced teacher. Your theory with real practice (Hard skills). At the end of the course, you have a finished project that you can safely add to CV. The best students in the course will receive recommendations from our teachers (LinkedIn).");
+dataEN.set("q&a_popup_answer27", "The study will take place on a real project according to the newest and most relevant program with homework checks and feedback from an experienced teacher. You will combine theory with real practice (hard skills). At the end of the course, you will have a finished project that you can safely add to CV. The best students in the course will receive recommendations from our teachers (LinkedIn).");
 dataUA.set("q&a_popup_answer27", "Навчання відбуватиметься на реальному проєкті за найновішою та найактуальнішою програмою з перевіркою домашніх завдань і зворотним зв'язком від досвідченого викладача. Теорія з реальною практикою (Hard skills). Наприкінці курсу у вас є готовий проєкт, який ви можете сміливо додати в CV. Найкращі студенти курсу отримають рекомендації від наших викладачів (LinkedIn).");
 dataRU.set("q&a_popup_answer27", "Обучение будет проходить на реальном проекте по самой новой и актуальной программе с проверкой домашних заданий и обратной связью от опытного преподавателя. Теория с реальной практикой (Hard skills). В конце курса у вас есть готовый проект, который вы можете смело добавить в CV. Лучшие студенты курса получат рекомендации от наших преподавателей (LinkedIn).");
 
@@ -326,17 +326,41 @@ dataEN.set("upcomingCourses_training", "training");
 dataUA.set("upcomingCourses_training", "курс");
 dataRU.set("upcomingCourses_training", "курс");
 
-dataEN.set("upcomingCourses_data", "20.11.2023");
-dataUA.set("upcomingCourses_data", "20.11.2023");
-dataRU.set("upcomingCourses_data", "20.11.2023");
+dataEN.set("upcomingCourses_PM_data", "enrollment is underway");
+dataUA.set("upcomingCourses_PM_data", "триває набір групи");
+dataRU.set("upcomingCourses_PM_data", "идет набор группы");
 
-dataEN.set("upcomingCourses_sessions", "");
-dataUA.set("upcomingCourses_sessions", "");
-dataRU.set("upcomingCourses_sessions", "");
+dataEN.set("upcomingCourses_PM_sessions", "3 semesters (38 hours)");
+dataUA.set("upcomingCourses_PM_sessions", "3 семестри (38 годин)");
+dataRU.set("upcomingCourses_PM_sessions", "3 семестра (38 часов)");
 
-dataEN.set("details", "DETAILS");
-dataUA.set("details", "ДЕТАЛІ");
-dataRU.set("details", "ДЕТАЛИ");
+dataEN.set("upcomingCourses_PM_price", "800$");
+dataUA.set("upcomingCourses_PM_price", "800$");
+dataRU.set("upcomingCourses_PM_price", "800$");
+
+dataEN.set("upcomingCourses_PM_details", "$270 for one semester");
+dataUA.set("upcomingCourses_PM_details", "$270 семестр");
+dataRU.set("upcomingCourses_PM_details", "$270 семестр");
+
+dataEN.set("upcomingCourses_QA_data", "enrollment is underway");
+dataUA.set("upcomingCourses_QA_data", "триває набір групи");
+dataRU.set("upcomingCourses_QA_data", "идет набор группы");
+
+dataEN.set("upcomingCourses_QA_sessions", "3 semesters (38 hours)");
+dataUA.set("upcomingCourses_QA_sessions", "3 семестри (38 годин)");
+dataRU.set("upcomingCourses_QA_sessions", "3 семестра (38 часов)");
+
+dataEN.set("upcomingCourses_QA_price", "800$");
+dataUA.set("upcomingCourses_QA_price", "800$");
+dataRU.set("upcomingCourses_QA_price", "800$");
+
+dataEN.set("upcomingCourses_QA_details", "$270 for one semester");
+dataUA.set("upcomingCourses_QA_details", "$270 семестр");
+dataRU.set("upcomingCourses_QA_details", "$270 семестр");
+
+dataEN.set("details", "");
+dataUA.set("details", "");
+dataRU.set("details", "");
 
 dataEN.set("getInTouch_title", "Get in touch");
 dataUA.set("getInTouch_title", "На зв'язку");
@@ -431,7 +455,7 @@ dataUA.set("trainer_daria_quote_title", "Дарія");
 dataRU.set("trainer_daria_quote_title", "Дария");
 
 dataEN.set("trainer_daria_quote2", "I teach project management at SHAR");
-dataUA.set("trainer_daria_quote2", "Я навчаю управлінню проектами в SHAR");
+dataUA.set("trainer_daria_quote2", "Я навчаю управлінню проєктами в SHAR");
 dataRU.set("trainer_daria_quote2", "Я обучаю управлению проектами в SHAR");
 
 dataEN.set("trainer_daria_popup_name", "Dariia Kukurik (PM)");
@@ -479,7 +503,7 @@ dataUA.set("trainer_touraj_quote_title", "Турадж");
 dataRU.set("trainer_touraj_quote_title", "Турадж");
 
 dataEN.set("trainer_touraj_quote2", "I teach project management at SHAR");
-dataUA.set("trainer_touraj_quote2", "Я навчаю управлінню проектами в SHAR");
+dataUA.set("trainer_touraj_quote2", "Я навчаю управлінню проєктами в SHAR");
 dataRU.set("trainer_touraj_quote2", "Я обучаю управлению проектами в SHAR");
 
 dataEN.set("trainer_touraj_popup_name", "Touraj Acbari (PM)");
@@ -491,7 +515,7 @@ dataUA.set("trainer_touraj_popup_title", "Project Manager/Program Manager");
 dataRU.set("trainer_touraj_popup_title", "Project Manager/Program Manager");
 
 dataEN.set("trainer_touraj_popup_point1", "Experienced Project Manager with over 11 years of expertise in leading and delivering successful projects.");
-dataUA.set("trainer_touraj_popup_point1", "Досвідчений менеджер проектів з більш ніж 11-річним досвідом керівництва та реалізації успішних проектів.");
+dataUA.set("trainer_touraj_popup_point1", "Досвідчений менеджер проєктів з більш ніж 11-річним досвідом керівництва та реалізації успішних проєктів.");
 dataRU.set("trainer_touraj_popup_point1", "Опытный менеджер проектов с более чем 11-летним опытом руководства и реализации успешных проектов.");
 
 dataEN.set("trainer_touraj_popup_point2", "Experience from renowned companies like CHI Software, Trinetix, DB Best Technologies, and MWDN Ltd.");
@@ -499,7 +523,7 @@ dataUA.set("trainer_touraj_popup_point2", "Досвід таких відоми�
 dataRU.set("trainer_touraj_popup_point2", "Опыт таких известных компаний, как CHI Software, Trinetix, DB Best Technologies и MWDN Ltd.");
 
 dataEN.set("trainer_touraj_popup_point3", "Adept at managing projects across the globe, particularly in the USA.");
-dataUA.set("trainer_touraj_popup_point3", "Має досвід управління проектами по всьому світу, зокрема в США.");
+dataUA.set("trainer_touraj_popup_point3", "Має досвід управління проєктами по всьому світу, зокрема в США.");
 dataRU.set("trainer_touraj_popup_point3", "Имеет опыт управления проектами по всему миру, особенно в США.");
 
 dataEN.set("trainer_touraj_popup_point4", "Holds certifications as a Project Management Professional (PMP), PMI Certification, and Scrum Master Certification.");
@@ -519,7 +543,7 @@ dataEN.set("register_course_sub_title", "Contact our consultants who will be hap
 dataUA.set("register_course_sub_title", "Зв'яжітьс за нашими консультантами, які з радістю відповідять на всі ваші питання, допоможуть підібрати курс та зробити перший крок до кар'єри в IT");
 dataRU.set("register_course_sub_title", "Свяжитесь с нашими консультантами, которые с радостью ответят на все ваши вопросы, помогут выбрать подходящий курс и сделать первый шаг к карьере в IT.");
 
-dataEN.set("register_course_course", "Chose a course");
+dataEN.set("register_course_course", "Choose a course");
 dataUA.set("register_course_course", "Виберіть курс");
 dataRU.set("register_course_course", "Выберите курс");
 
