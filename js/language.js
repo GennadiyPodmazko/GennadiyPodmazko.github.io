@@ -334,13 +334,13 @@ dataEN.set("upcomingCourses_PM_sessions", "3 semesters (38 hours)");
 dataUA.set("upcomingCourses_PM_sessions", "3 семестри (38 годин)");
 dataRU.set("upcomingCourses_PM_sessions", "3 семестра (38 часов)");
 
-dataEN.set("upcomingCourses_PM_price", "800$");
-dataUA.set("upcomingCourses_PM_price", "800$");
-dataRU.set("upcomingCourses_PM_price", "800$");
+dataEN.set("upcomingCourses_PM_price", "$270 for one semester");
+dataUA.set("upcomingCourses_PM_price", "$270 семестр");
+dataRU.set("upcomingCourses_PM_price", "$270 семестр");
 
-dataEN.set("upcomingCourses_PM_details", "$270 for one semester");
-dataUA.set("upcomingCourses_PM_details", "$270 семестр");
-dataRU.set("upcomingCourses_PM_details", "$270 семестр");
+dataEN.set("upcomingCourses_PM_details", "");
+dataUA.set("upcomingCourses_PM_details", "");
+dataRU.set("upcomingCourses_PM_details", "");
 
 dataEN.set("upcomingCourses_QA_data", "enrollment is underway");
 dataUA.set("upcomingCourses_QA_data", "триває набір групи");
@@ -350,13 +350,13 @@ dataEN.set("upcomingCourses_QA_sessions", "3 semesters (38 hours)");
 dataUA.set("upcomingCourses_QA_sessions", "3 семестри (38 годин)");
 dataRU.set("upcomingCourses_QA_sessions", "3 семестра (38 часов)");
 
-dataEN.set("upcomingCourses_QA_price", "800$");
-dataUA.set("upcomingCourses_QA_price", "800$");
-dataRU.set("upcomingCourses_QA_price", "800$");
+dataEN.set("upcomingCourses_QA_price", "$270 for one semester");
+dataUA.set("upcomingCourses_QA_price", "$270 семестр");
+dataRU.set("upcomingCourses_QA_price", "$270 семестр");
 
-dataEN.set("upcomingCourses_QA_details", "$270 for one semester");
-dataUA.set("upcomingCourses_QA_details", "$270 семестр");
-dataRU.set("upcomingCourses_QA_details", "$270 семестр");
+dataEN.set("upcomingCourses_QA_details", "");
+dataUA.set("upcomingCourses_QA_details", "");
+dataRU.set("upcomingCourses_QA_details", "");
 
 dataEN.set("details", "");
 dataUA.set("details", "");
