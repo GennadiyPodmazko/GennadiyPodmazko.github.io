@@ -254,7 +254,17 @@ function closeAllPopup() {
 /* Copy to clickboard */
 function copyToClickboard(element) {
   
-  navigator.clipboard.writeText(element.value);
+  if(isOS()) {
+    let range = document.createRange()
+    range.selectNodeContents(input)
+    let selection = window.getSelection()
+    selection.removeAllRanges()
+    selection.addRange(range);
+    input.setSelectionRange(0, 999999);
+  } else {
+    navigator.clipboard.writeText(element.value);
+  }
+  
 
   let svgCheck = document.createElement("i");
   svgCheck.setAttribute("class", "bi bi-check2")
@@ -314,18 +324,18 @@ function sendRegisterRequest(event) {
  let phone = this.phone.value;
  let course = this.course.value;
  
- fetch("https://docs.google.com/forms/d/e/1FAIpQLSccf7WdfEaVK95-tgVP8lzaENGC1er5G5FDZWnu8QRqGH-MbQ/formResponse"
+ fetch("https://docs.google.com/forms/d/e/1FAIpQLScs0lz77QXtIpYEadL4uCjp-qtOhIH_W8cCVPdf3mfBJg7WPQ/formResponse"
  , {
    method: "POST",
    headers: {
      "Content-Type": "application/x-www-form-urlencoded",
    },
-   body: "entry.1239952446="+name
-   +"&entry.2046075764="+email
-   +"&entry.1314615058="+countryCode
-   +"&entry.2134381035="+phone
-   +"&entry.1078540857="+course
-   +"&fvv=1&partialResponse=%5Bnull%2Cnull%2C%224625185403490877421%22%5D&pageHistory=0&fbzx=4625185403490877421", // body data type must match "Content-Type" header
+   body: "entry.753262891="+name
+   +"&entry.1819306346="+email
+   +"&entry.780228719="+countryCode
+   +"&entry.1350449150="+phone
+   +"&entry.1829911630="+course
+   +"&fvv=1&partialResponse=%5Bnull%2Cnull%2C%221311986270136806561%22%5D&pageHistory=0&fbzx=1311986270136806561", 
  });
 
  closeAllPopup();
